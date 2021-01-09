@@ -1,2 +1,2 @@
-let string = document.lastModified;
+var string = document.lastModified;
 document.getElementById("updated").innerHTML = string;
