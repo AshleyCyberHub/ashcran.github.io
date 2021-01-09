@@ -4,13 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <script src="./js/date.js"></script>
     <title>Ashley Crandall WDD 230 Assignment Portal</title>
-    <meta
-      name="description"
-      content="WDD 230 Assignment Portal for Ashley Crandall for BYUI"
-    />
-
+    <meta name="description" content="WDD 230 Assignment Portal for Ashley Crandall for BYUI"/>
   </head>
   <body>
     <header>
@@ -50,7 +45,10 @@
       <!-- js insert to update time when github was used last -->
       <p class="updated">
         "Last Updated: "
-        <span id="date"></span>
+        <span id="currentdate"></span>
+        <br>
+        Using toLocaleDateString: <span id="currentdate2"></span>
+        <script src="js/date.js"></script>
       </p>
     </footer>
   </body>
