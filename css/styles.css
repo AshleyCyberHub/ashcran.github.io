@@ -20,7 +20,7 @@ body {
     box-shadow: 0 0 50px grey;
   }
   h1 {
-    font-family: 'Monda', sans-serif;
+    font-family: 'Bodoni Moda', serif;
     font-weight: bold;
     color: #413C58;
     width: 100%;
@@ -28,7 +28,7 @@ body {
   }
   h2 {
     margin: 80px;
-    font-family: 'Monda', sans-serif;
+    font-family: 'Bodoni Moda', serif;
     border-bottom: 1px solid grey;
   }
   ul {
