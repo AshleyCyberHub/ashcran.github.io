@@ -1,0 +1,76 @@
+header {
+    background-color: #A3C4BC;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+@media only screen and (min-width: 37.5em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (min-width: 60em) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+.contrast {
+    background-color: #A3C4BC;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #413C58;
+    font-size: 1.5em;
+}
+
+.alignment {
+    background-color: #A3C4BC;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #413C58;
+    font-size: 1.5em;
+}
+
+.repet {
+    background-color: #A3C4BC;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #413C58;
+    font-size: 1.5em;
+}
+.top1 {
+    text-align: left;
+    font-size:medium;
+}
+ .top2 {
+     text-align: left;
+ }
+ .top3 {
+     text-align: left;
+ }
+ .levis-image {
+     border-style: solid;
+     border-color: darkcyan;
+     background-color: white;
+ }
+ .aa-image {
+     border-style: solid;
+     border-color: darkcyan;
+     background-color: white;
+ }
+ .melaluca-image {
+     border-style: solid;
+     border-color: darkcyan;
+     background-color: white;
+ }
