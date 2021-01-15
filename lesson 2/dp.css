@@ -1,12 +1,13 @@
 header {
     background-color: #A3C4BC;
     text-align: center;
-    padding: 8px;
+    padding: 5px;
     border-radius: 20px;
     font-size: 1.5em;
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Raleway', sans-serif;
 }
 main {
+    font-family: 'Raleway', sans-serif;
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -52,6 +53,9 @@ main {
     border-color: #413C58;
     font-size: 1.5em;
     margin: 15px;
+}
+p {
+    font-weight: bold;
 }
 .top1 {
     text-align: left;
