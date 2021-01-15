@@ -4,6 +4,7 @@ header {
     padding: 8px;
     border-radius: 20px;
     font-size: 1.5em;
+    font-family: 'Bodoni Moda', serif;
 }
 main {
     display: grid;
@@ -28,6 +29,7 @@ main {
     border-style: solid;
     border-color: #413C58;
     font-size: 1.5em;
+    margin: 15px;
 }
 
 .alignment {
@@ -38,6 +40,7 @@ main {
     border-style: solid;
     border-color: #413C58;
     font-size: 1.5em;
+    margin: 15px;
 }
 
 .repet {
@@ -48,6 +51,7 @@ main {
     border-style: solid;
     border-color: #413C58;
     font-size: 1.5em;
+    margin: 15px;
 }
 .top1 {
     text-align: left;
