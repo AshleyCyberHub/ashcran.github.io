@@ -1,0 +1,65 @@
+header {
+    background-color: #A3C4BC;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    font-family: 'Merriweather Sans', sans-serif;
+    
+
+}
+body {
+    display: block;
+    background-color: white;
+    
+    font-family: 'Merriweather Sans', sans-serif;
+    border: 50px solid #0C1618;
+    
+}
+.logo-box {
+    float: left;
+}
+h2{
+    margin-left: 50px;
+}
+h3{
+    margin-left: 50px;
+    margin-right: 50px;;
+}
+h4 {
+    margin-left: 50px;
+}
+
+.button {
+    background-color: #32A287;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .domain-img {
+    margin-left: 200px;
+  }
+  .site-map {
+      margin-left: 200px;
+  }
+  .colors {
+      margin-left: 500px;
+  }
+ .footer1 {
+        padding: 10px;
+        background-color: #32A287;
+        text-align: center;
+        
+        
+  }
+
+  
+  nav a:hover {
+    color: #0C1618;
+    background-color: #d1ac00;
+  }
