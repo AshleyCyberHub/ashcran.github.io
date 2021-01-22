@@ -36,7 +36,13 @@ p {
     margin-left: 50px ;
     margin-right: 50px;
 }
-
+.example {
+    font-style: italic;
+}
+.aud-page {
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .button {
     background-color: #32A287;
     border: none;
