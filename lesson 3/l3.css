@@ -18,15 +18,23 @@ body {
 .logo-box {
     float: left;
 }
-h2{
+.main-page {
     margin-left: 50px;
+    margin-right: 50px;
 }
-h3{
+.fonts {
+    font-family: 'Open Sans', sans-serif;
     margin-left: 50px;
     margin-right: 50px;;
 }
-h4 {
+p {
+    font-family: 'Open Sans', sans-serif;
     margin-left: 50px;
+    margin-right: 50px;
+}
+.fonts {
+    margin-left: 50px ;
+    margin-right: 50px;
 }
 
 .button {
@@ -40,6 +48,7 @@ h4 {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    font-family: 'Merriweather', sans-serif;
   }
   .domain-img {
     margin-left: 200px;
@@ -53,12 +62,8 @@ h4 {
  .footer1 {
         padding: 10px;
         background-color: #32A287;
-        text-align: center;
-        
-        
+        text-align: center;     
   }
-
-  
   nav a:hover {
     color: #0C1618;
     background-color: #d1ac00;
