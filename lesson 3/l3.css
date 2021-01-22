@@ -3,15 +3,14 @@ header {
     text-align: center;
     padding: 20px;
     font-size: 1.5em;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Open Sans' sans-serif;
     
 
 }
 body {
     display: block;
     background-color: white;
-    
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     border: 50px solid #0C1618;
     
 }
@@ -28,7 +27,7 @@ body {
     margin-right: 50px;;
 }
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Volkhov', serif;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -54,7 +53,12 @@ p {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  .scenarios {
+      margin-left: 50px;
+      margin-right: 50px;
   }
   .domain-img {
     margin-left: 200px;
