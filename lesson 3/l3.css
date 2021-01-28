@@ -78,3 +78,8 @@ p {
     color: #0C1618;
     background-color: #d1ac00;
   }
+  @media (min-width: 60em) {
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
