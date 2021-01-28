@@ -1,4 +1,4 @@
-header {
+.header {
     background-color: #A3C4BC;
     text-align: center;
     padding: 20px;
@@ -16,6 +16,10 @@ body {
 }
 .logo-box {
     float: left;
+.page-name {
+    text-align: center;;
+}
+
 }
 .main-page {
     margin-left: 50px;
@@ -61,13 +65,14 @@ p {
       margin-right: 50px;
   }
   .domain-img {
-    margin-left: 200px;
+      
+    
   }
   .site-map {
-      margin-left: 200px;
+      
   }
   .colors {
-      margin-left: 500px;
+      display: inline;
   }
  .footer1 {
         padding: 10px;
@@ -83,3 +88,10 @@ p {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+    @media (min-width: 769px) {
+       
+      
+      @media (min-width: 1025px) {
+        
+      }
+      
