@@ -1,0 +1,124 @@
+header {
+    background-color: #A3C4BC;
+    display: flex;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans' sans-serif;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    border: 50px solid #0C1618;   
+}
+.logo-box {
+    float: left;
+}
+.navmenu:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+}
+h1 {
+    font-size: 2em;
+}
+}
+.main-page {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.fonts {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;;
+}
+
+p {
+    font-family: 'Volkhov', serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.fonts {
+    margin-left: 50px ;
+    margin-right: 50px;
+}
+.example {
+    font-style: italic;
+}
+.aud-page {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.button {
+    background-color: #32A287;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  .scenarios {
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+  .domain-img {
+      
+    
+  }
+  .site-map {
+      
+  }
+  .colors {
+      display: inline;
+  }
+ .footer1 {
+        padding: 10px;
+        background-color: #32A287;
+        text-align: center;     
+  }
+  nav a:hover {
+    color: #0C1618;
+    background-color: #d1ac00;
+  }
+  @media (min-width: 60em) {
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+      nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #1F213D;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+nav ul li.active a {
+    background-color: #F52B66;
+    color: #E1F1FF;
+}
+
+nav ul li a:hover {
+    background-color: #F52B66;
+}
+
+nav ul.hide {
+    display: none;
+}
