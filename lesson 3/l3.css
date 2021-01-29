@@ -1,4 +1,4 @@
-.header {
+header {
     background-color: #A3C4BC;
     text-align: center;
     padding: 20px;
@@ -16,10 +16,13 @@ body {
 }
 .logo-box {
     float: left;
-.page-name {
-    text-align: center;;
 }
-
+.page-name {
+    text-align: center;
+}
+h1 {
+    font-size: 2em;
+}
 }
 .main-page {
     margin-left: 50px;
@@ -30,6 +33,7 @@ body {
     margin-left: 50px;
     margin-right: 50px;;
 }
+
 p {
     font-family: 'Volkhov', serif;
     margin-left: 50px;
