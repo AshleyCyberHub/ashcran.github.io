@@ -75,3 +75,35 @@ p {
        background-color: #32A287;
        text-align: center;     
  }
+ .hero-ph {
+     display: block;
+     margin: 10px auto;
+     background-color: #eee;
+     border: 1px solid #333;
+     width: 950px;
+     height: 300px;
+ }
+ .herodiv {
+     position: relative;
+     border: 1px dashed cyan;
+ }
+ .weathersummary {
+     position: absolute;
+     top: 50px;
+     left: 70px;
+     background: radial-gradient(#32A287, #A3C4BC);
+     border: 1px solid #0C1618;
+     padding: .5rem;
+     box-shadow: 0 0 30px #A3C4BC;
+ }
+ .forecast {
+     
+ }
+ .article {
+     display: block;
+     margin: 10px;
+     background-color: #eee;
+     border: 1px solid #333;
+     width: 950px;
+     height: 300px;
+ }
