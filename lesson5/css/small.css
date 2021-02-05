@@ -76,34 +76,139 @@ p {
        text-align: center;     
  }
  .hero-ph {
-     display: block;
-     margin: 10px auto;
-     background-color: #eee;
-     border: 1px solid #333;
-     width: 950px;
-     height: 300px;
+     display: inline-flexbox;
+     
  }
  .herodiv {
      position: relative;
-     border: 1px dashed cyan;
+     margin: 10px auto;
+
  }
  .weathersummary {
      position: absolute;
-     top: 50px;
-     left: 70px;
+     top: 25px;
+	 left: 70px;    
      background: radial-gradient(#32A287, #A3C4BC);
      border: 1px solid #0C1618;
      padding: .5rem;
      box-shadow: 0 0 30px #A3C4BC;
  }
  .forecast {
-     
+    display: ;
  }
+ .col-head {
+	font-weight: 700;
+	font-size: 1rem;
+	background-color: #32A287;
+	color: #0C1618;
+}
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+	text-align: center;
+}
  .article {
-     display: block;
-     margin: 10px;
-     background-color: #eee;
-     border: 1px solid #333;
-     width: 950px;
-     height: 300px;
+     min-height: 200px;
+     background-color: #DCEDFF;
+     color: #0C1618;
+     border: 1px solid #0C1618;
+     padding: 20px;
+     margin-top: 30px;
  }
+ h1 h2 h3 h4 h5 h6 {
+     font-family: 'Open Sans', sans-serif;
+ }
+ p {
+     font-family: 'Volkhov', serif;
+ }
+ .article1 {
+     display: flexbox;
+     text-indent: 3em;
+     font-family:'Volkhov', serif;
+ }
+ .articleimage {
+     float: right;
+     margin: 0 15px 15px 15px;
+     box-shadow: 0 0 30px #A3C4BC;
+ }
+ .map {
+     float:left;
+     margin: 0 15px 15px 15px;
+     box-shadow: 0 0 30px #A3C4BC;
+ }
+ nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #32A287;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #0C1618;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: #0C1618;
+	background-color: #d1ac00;
+}
+.responsive li {
+	display: block;
+}
+.flex {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.flex-col {
+	flex: 1 1 auto;
+	background-color: #bed;
+}
+.flex-col {
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	text-align: center;
+}
+
+.flex, .column, .grid {
+	border-right: 1px solid #333;
+}
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+    text-align: center;
+}
+.contact {
+    min-height: 200px;
+    background-color: #DCEDFF;
+    color: #0C1618;
+    border: 1px solid #0C1618;
+    padding: 20px;
+    margin-top: 30px;
+}
+aside.alert {
+    background-color: #d1ac00;
+    color: white;
+    padding: 2em;
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  aside#pancakes.alert.hide {
+    display: none;
+  }
+  

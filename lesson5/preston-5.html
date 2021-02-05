@@ -3,31 +3,34 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/lesson5/css/small.css">
     <link rel="stylesheet" href="/lesson5/css/medium.css">
     <link rel="stylesheet" href="/lesson5/css/large.css">
-    <link rel="shortcut icon" href="favicon.ico">
+    
     <title>Ashley Crandall Weather Site Plan</title>
     <meta name="description" content="WDD 230 lesson 5 assignment for Preston Town"/>
   </head>
   <body>
       <header>
-          <div class="logo-box">
+        <aside onload="toggleAnnouncement()" id "pancakes" class="alert">
+        "Saturday = Preston Pancakes in the Park!"
+        "9:00 a.m. Saturday at the city park pavilion."
+      </aside>
+          <div class="lo go-box">
           <img src="images/weathericon.png"  alt="natures temperature logo box" width="100"/>
           </div>
           <section class="site-name">
               <h1>Nature's Temperature</h1>
                <p class="moto">When you need to know your weather</p>
           </section>
-          
-          <div class="nav-list">
-              <nav id="navmenu">
-                  <button onclick="toggleMenu()">&#9776; Menu</button>
-                  
-            <ul id="mainnav" class="ham">
+          <div class="nav-list"> 
+            <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776 Menu</a></li>   
                 <li><a href="#">Home</a></li>
                 <li class="active"><a href="preston-5.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
@@ -54,13 +57,42 @@
     <p>Humidity: Value</p>
     <p>Wind Speed: Value</p>
   </section>
+  
 </div>
-          </div>
-
-<div class=".forecast">5 Day Forecast</div>
+<div class=".forecast">
+<h2>5 Day Forecast</h2>
+<div class="flex">
+	<div class="flex-col">
+		<span class="col-head">Monday</span>
+		<img src="images/sunny.png" alt="sun" width="40">
+		<span class="data">55</span>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">Tuesday</span>
+		<img src="images/sunny.png" alt="sun" width="40">
+		<span class="data">57</span>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">Wednesday</span>
+		<img src="images/partly sunny.png" alt="partly sunny" width="40">
+		<span class="data">54</span>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">Thurdsday</span>
+		<img src="images/windy.png" alt="windy" width="40">
+		<span class="data">52</span>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">Friday</span>
+		<img src="images/rain.png" alt="rain" width="40">
+		<span class="data">55</span>
+	</div>
+</div>
 <div class="article">
-  <h3>Festivities</h3>
-  <p>Preston Festivities
+  <section class="articleimage">
+  <img src="images/prestonrodeo.jpeg" alt="rodeo image" width="300"/></section>
+  <h3>Preston Festivities</h3>
+  <p class="article1">
     For several years the city held a "Napoleon Dynamite Festival" in the summer. Many of the featured
    festival themes related to events occurring during the film. For example: Tetherball Tournament, 
    Tater Tot Eating Contest, Moon Boot Dance, Impersonation, Look-A-Like Contest, Football Throwing 
@@ -76,9 +108,18 @@
    and parade remain one of the town's most popular local events and traditions.</p>
 </div>
 <div class="contact">
-  <h3>Contact Us: </h3>
-  <a href="http://www.facebook.com" target="_blank"><img src="images/facebooklogo.jpg" alt="facebook logo" />
-</div>
+  <div class="map">
+  <img src="images/prestonmap.png" alt="preston map" width="400"/>
+  </div>
+  <h3>Contact Us! </h3>
+  <h4>5555 Preston Road</h4>
+  <h4>Preston, Idaho 83623</h4>
+  <h4>555-555-5555</h4>
+  <h4>naturestemp@naturestemp.com</h4>
+  <img src="images/iconfinder_Colored_Facebook3_svg_5365678.png" alt="facebook logo" width="60" />
+  <img src="images/iconfinder_25_social_2609558.png" alt="instagram logo" width="60" />
+  <img src="images/iconfinder_1_Twitter3_colored_svg_5296516.png" alt="twitter logo" width="60" />
+ </div>
       </main> 
       
         <footer>
@@ -88,9 +129,10 @@
     <br>
          
          <span id="date"></span><br /><br>
+         </div>
         </footer>
-        <script src="js/date.js">
-        </script>    
+        <script src="js/date.js"></script>
+        <script src="js/alert.js"></script>    
       
   </body>
   </html>
