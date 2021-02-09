@@ -9,7 +9,8 @@ window.onload = function toggleAnnouncement() {
     let q = d.getDay();
   
     if (q != 5) {
-      document.getElementById("pancakes").classList.toggle("hide");
+      document.getElementById("pancakes").classList.toggle("hide") + "Saturday = Preston Pancakes in the Park!"
+      "9:00 a.m. Saturday at the city park pavilion." ;
     }
     //A test to make sure it worked
     //   console.log(q);
