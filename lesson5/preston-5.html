@@ -14,10 +14,12 @@
     <title>Ashley Crandall Weather Site Plan</title>
     <meta name="description" content="WDD 230 lesson 5 assignment for Preston Town"/>
   </head>
-  <body>
+  <body onload="bannerAlert()">
       <header>
-        <aside onload="toggleAnnouncement()" id "pancakes" class="hide">
-      </aside>
+         <div style="height: 50px; line-height: 50px; background:#d1ac00; text-align: center" id="announcement" class="show">
+          Saturday = Preston Pancakes in the Park!
+          9:00 a.m. Saturday at the city park pavilion.
+         </div>
           <div class="logo-box">
           <img src="images/weathericon.png"  alt="natures temperature logo box" width="100"/>
           </div>

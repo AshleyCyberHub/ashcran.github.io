@@ -75,27 +75,33 @@ p {
        background-color: #32A287;
        text-align: center;     
  }
- figure hero-ph {
-    
-     
+ .smallimage {
+     display: block;
  }
+ .mediumimage {
+     display: none;
+ }
+ .largeimage {
+     display: none;
+ }
+ .hero-ph {
+    display: inline-flexbox;   
+}
  .herodiv {
-     position: relative;
-     margin: 10px auto;
-
- }
- .weathersummary {
-     position: absolute;
-     top: 25px;
-	 left: 70px;    
+    position: relative;
+    margin: 10px auto;
+}
+ .currentweather {
+     position: absolute;  
+     top: 45px;
+     left: 100px;
+     text-align: left;
      background: radial-gradient(#32A287, #A3C4BC);
      border: 1px solid #0C1618;
      padding: .5rem;
      box-shadow: 0 0 30px #A3C4BC;
  }
- .forecast {
-    display: ;
- }
+ 
  .col-head {
 	font-weight: 700;
 	font-size: 1rem;
@@ -200,15 +206,12 @@ p {
     padding: 20px;
     margin-top: 30px;
 }
-aside.alert {
-    background-color: #d1ac00;
-    color: white;
-    padding: 2em;
-    margin-top: 0;
+.contact-center {
     text-align: center;
-  }
-  
-  aside#pancakes.alert.hide {
+}
+.show {
+    display: block;
+}
+.hide {
     display: none;
-  }
-  
+} 
