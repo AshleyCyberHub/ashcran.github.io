@@ -16,12 +16,16 @@
   </head>
   <body onload="bannerAlert()">
     <header>
+        <div class="banner" id="announcement" class="show">
+        Saturday = Preston Pancakes in the Park!
+        9:00 a.m. Saturday at the city park pavilion.
+       </div>
           <div class="logo-box">
            <img src="images/weathericon.png"  alt="natures temperature logo box" width="100"/>
           </div>
           <section class="site-name">
-              <h1>Nature's Temperature</h1>
-               <p class="moto">When you need to know your weather</p>
+              <h1 class="page">Nature's Temperature</h1>
+               <p class="moto">When you need to know your weather...</p>
           </section>
           <div class="nav-list"> 
             <nav>
@@ -39,43 +43,44 @@
         </header>
       <main>
           <h1 class="title"> Weather Gallery</h1>
-          <picture class="gallery">
-              <div class="image">
-          <img src="images/weather1.jpg" data-src="img/weather1.jpg" alt="clouds">
-          Storm coming closer to town.
-          </div>
-          <div class="image">
-          <img src="images/weather2.jpg" data-src="img/weather2.jpg" alt="clouds">
-          Beautiful sunset reflection on the clouds.
-         </div>
-         <div class="image">
-          <img src="images/weather3.jpg" data-src="img/weather3.jpg" alt="dark sky and clouds">
-          Storm clouds developing.
-          </div>
-          <div class="image">          
-          <img src="images/weather4.jpg" data-src="img/weather4.jpg" alt="clouds">
-          Clear and perfect sunny sky.
-          </div>
-          <div class="image">
-          <img src="images/weather5.jpg" data-src="img/weather5.jpg" alt="preston idaho">
-          Clear evening sky displays stars.
-          </div>
-          <div class="image">
-          <img src="images/weather6.jpg" data-src="img/weather6.jpg" alt="preston idaho">
-          Partly cloudy spring day.
-          </div>
-          <div class="image">
-          <img src="images/weather7.jpg" data-src="img/weather7.jpg" alt="preston idaho">
-          Cloudy skies around the area.
-          </div>
-          <div class="image">
-          <img src="images/weather8.jpg" data-src="img/weather8.jpg" alt="preston idaho weather">
-          Perfect weather for spring.
-          </div>
-          <div class="image">
-          <img src="images/weather9.jpg" data-src="img/weather9.jpg" alt="preston idaho weather">
-          Storm clouds aproaching.
-          </div>
+          <div class="borderline"></div>
+          <picture class="weatherimages">
+         <figure class="gallery">
+          <img src="images/placeholder2.png" data-src="images/weather1.jpg" alt="clouds"/>
+          <figcaption>Storm coming closer to town.</figcaption>
+         </figure>
+          <figure class="gallery">
+          <img src="images/placeholder_400.png" data-src="images/weather2.jpg" alt="clouds"/>
+          <figcaption>Sunset reflection on the clouds.</figcaption>
+          </figure>
+         <figure class="gallery">
+          <img src="images/placeholder_400.png" data-src="images/weather3.jpg" alt="dark sky and clouds"/>
+          <figcaption>Storm clouds developing.</figcaption>
+         </figure>
+          <figure class="gallery">          
+          <img src="images/placeholder_400.png" data-src="images/weather4.jpg" alt="clouds"/>
+          <figcaption>Clear and sunny sky.</figcaption>
+          </figure>
+          <figure class="gallery">
+          <img src="images/placeholder_400.png" data-src="images/weather5.jpg" alt="preston idaho"/>
+          <figcaption>Clear evening displays stars.</figcaption>
+          </figure>
+          <figure class="gallery">
+          <img src="images/placeholder_400.png" data-src="images/weather6.jpg" alt="preston idaho"/>
+          <figcaption>Cloudy spring day.</figcaption>
+          </figure>
+          <figure class="gallery">
+          <img src="images/placeholder_400.png" data-src="images/weather7.jpg" alt="preston idaho"/>
+          <figcaption>Cloudy skies.</figcaption>
+          </figure>
+          <figure class="gallery">
+          <img src="images/placeholder_400.png" data-src="images/weather8.jpg" alt="preston idaho weather"/>
+          <figcaption></fig>Perfect weather for spring.</figcaption>
+          </figure>
+          <figure class="gallery">
+          <img src="images/placeholder_400.png" data-src="images/weather9.jpg" alt="preston idaho weather"/>
+          <figcaption>Storm clouds aproaching.</figcaption>
+          </figure>
         </picture>
         </main> 
       
@@ -91,7 +96,7 @@
           <script src="js/alert.js"></script>    
           <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
           <script src="js/webfontload.js"></script>
-          <script src="gallery/lazyload.js"></script>
+          <script src="js/lazyload.js"></script>
           
   </body>
   </html>
