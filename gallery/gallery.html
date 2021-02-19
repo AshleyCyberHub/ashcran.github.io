@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/gallery/css/small.css">
+    <link rel="stylesheet" href="/gallery/css/medium.css">
+    <link rel="stylesheet" href="/gallery/css/large.css">
+    
+    <title>Ashley Crandall Weather Site Plan</title>
+    <meta name="description" content="WDD 230 Week 7 Gallery"/>
+  </head>
+  <body onload="bannerAlert()">
+    <header>
+          <div class="logo-box">
+           <img src="images/weathericon.png"  alt="natures temperature logo box" width="100"/>
+          </div>
+          <section class="site-name">
+              <h1>Nature's Temperature</h1>
+               <p class="moto">When you need to know your weather</p>
+          </section>
+          <div class="nav-list"> 
+            <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776 Menu</a></li>   
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="https://ashleycyberhub.github.io/lesson6/preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>    
+                <li class="active"><a href="gallery.html">Gallery</a></li>
+            </ul>
+           </nav>
+          </div>
+        </header>
+      <main>
+        <picture>
+          <h1> Weather Gallery</h1>
+          <img src="images/weather1.jpg" data-src="img/weather1.jpg" alt="clouds">
+          <img src="images/weather2.jpg" data-src="img/weather2.jpg" alt="clouds">
+          <img src="images/weather3.jpg" data-src="img/weather3.jpg" alt="dark sky and clouds">
+        </picture>
+        </main> 
+      
+        <footer>
+            <div class="footer1">
+            &copy; 2021 Natures Temperature | Ashley Crandall | Texas |
+        <a href="https://www.byui.edu" target="_blank">BYUI Online Learning</a>
+          <br>
+         <span id="date"></span><br /><br>
+            </div>
+        </footer>
+          <script src="js/date.js"></script>
+          <script src="js/alert.js"></script>    
+          <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+          <script src="js/webfontload.js"></script>
+          <script src="gallery/lazyload.js"></script>
+          
+  </body>
+  </html>
