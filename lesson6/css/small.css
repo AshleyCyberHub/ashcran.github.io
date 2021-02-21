@@ -62,6 +62,9 @@ nav ul li a {
 .navmenu {
     background-color: #32A287;
 }
+nav ul li.active {
+    box-shadow: 2px 2px 2px 2px red;
+}
 .top {
     text-align: center;
 }
