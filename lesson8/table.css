@@ -20,9 +20,11 @@
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.2em;
     padding: 10px;
+    
   }
   table {
     width: 40%;
+    box-shadow: 10px 10px 10px #628ca6;
   }
   
  
