@@ -14,7 +14,6 @@ header {
     margin: 0;
     padding: 0;
 }
-
 .logo-box {
     display: inline-block;
     max-width: 100%;
@@ -99,8 +98,7 @@ p {
  .herodiv {
     position: relative;
     margin: 10px auto;
-}
- 
+} 
  .col-head {
 	font-weight: 700;
 	font-size: 1rem;
@@ -113,15 +111,13 @@ p {
 	border-bottom: 1px solid #333;
 	text-align: center;
 }
- 
- h1 h2 h3 h4 h5 h6 {
+  h1 h2 h3 h4 h5 h6 {
      font-family: 'Open Sans', sans-serif;
  }
  p {
      font-family: 'Volkhov', serif;
  }
- 
- nav {
+  nav {
 	margin: 0 auto;
 	max-width: 760px;
 	background-color: #32A287;
@@ -155,7 +151,6 @@ p {
     display: flex;
     flex-flow: wrap;
 }
-
 .flex-col {
 	flex: 1 1 auto;
 	background-color: #bed;
@@ -169,7 +164,6 @@ p {
 .flex, .column, .grid {
 	border-right: 1px solid #333;
 }
-
 .data {
 	display: block;
 	padding: 0 5px 5px;
@@ -187,14 +181,13 @@ p {
 .contact-center {
     text-align: center;
 }
-.show {
+announcencment.show {
     display: block; 
     height: 50px; 
     line-height: 50px; 
     width: 900px;
     background:#D72638; 
     text-align: center
-}
 }
 .hide {
     display: none;
@@ -219,7 +212,6 @@ p {
     grid-auto-rows: 300px;
     grid-gap: 30px;
     padding: 30px;
-    
 }
 .gallery:hover {
     box-shadow: 0 0 50px #333;
@@ -247,39 +239,24 @@ figure .image {
     height: 100%;
     width: 100%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-radius: 1px;
     background-color: rgb(255, 255, 255);
   }
-  figure img[data-src] {
-    filter: blur(0.2em);
-  }
-  
-  figure img {
-    filter: blur(0em);
-    transition: filter 1.5s;
-  }
-  
   figcaption {
     text-align: center;
     color: black;
   }
-  
-  figure.gallery {
-    margin: 5%;
-  }
-  
-  figure.gallery img[data-src] {
+ figure.gallery img[data-src] {
     filter: blur(0.2em);
+    transition: 1.5s;
   }
-  
-  figure.gallery img {
+ figure.gallery img {
     filter: blur(0em);
-    transition: filter 1.5s;
+    transition: filter 3.5s;
   }
-  .weatherimages {
-    display: grid;
-    background-color: white;
-    grid-template-columns: 1fr;
-  }
-  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

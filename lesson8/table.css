@@ -1,0 +1,28 @@
+
+/* use colors: #e7f0ed, #e7ffed, #628ca6, #7fb9c2
+   font- Ubuntu, sans serif */
+
+  .list {
+      background-color: #628ca6;
+      color: white;
+      font-weight: bold;
+  }
+  .r1 {
+      background-color:  #e7ffed;
+  }
+  .r2 {
+      background-color: #e7f0ed;
+  }
+  table, th, td {
+    border: 2px solid #7fb9c2;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  table {
+    width: 40%;
+  }
+  
+ 

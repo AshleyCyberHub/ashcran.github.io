@@ -23,7 +23,7 @@
         .largeimage {
             display: none;
         }
-         picture.weatherimages {
+         .weatherimages {
             display: grid;
             grid-template-columns: 1fr 1fr;
           }
