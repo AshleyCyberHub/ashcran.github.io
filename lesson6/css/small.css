@@ -1,11 +1,11 @@
 body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
-    border: 50px solid #0C1618;   
+    border: 50px solid #19647E;   
 }
 header {
     color: #0C1618; 
-    background-color: #A3C4BC;
+    background-color: #DCEDFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,25 +14,24 @@ header {
     margin: 0;
     padding: 0;
 }
-.banner {
-    height: 50px; 
-    line-height: 50px; 
-    background:#F8F32B; 
-    text-align: center
-}
 .logo-box {
     display: inline-block;
     max-width: 100%;
 }
+.page {
+    font-size: 3em;
+}
 .moto {
+    text-align: center;
     font-style: italic;
+    font-size: 1.5em;
 }
 header section h1 p {
     margin: 0;
     padding: 0;
 }
 nav {
-    background-color: #32A287;
+    background-color: #4d7ea8;
     padding: 0;
 }
 nav ul {
@@ -57,10 +56,10 @@ nav ul.hide {
 }
 nav ul li a {
     color: #0C1618;
-    background-color: #F8F32B;
+    background-color: #4d7ea8;
 }
 .navmenu {
-    background-color: #32A287;
+    background-color: #4d7ea8;
 }
 nav ul li.active {
     box-shadow: 2px 2px 2px 2px red;
@@ -71,6 +70,9 @@ nav ul li.active {
 p {
     font-family: 'Volkhov', serif;
 } 
+.map {
+    float:left;
+}
 .contentbox {
     display: block;
     margin: 10px auto;
@@ -81,7 +83,7 @@ p {
 }
 .footer1 {
        padding: 10px;
-       background-color: #32A287;
+       background-color: #DCEDFF;
        text-align: center;     
  }
  .smallimage {
@@ -93,24 +95,13 @@ p {
  .largeimage {
      display: none;
  }
- .hero-ph {
+ /*.hero-ph {
     display: inline-flexbox;   
-}
+}*/
  .herodiv {
     position: relative;
     margin: 10px auto;
-}
- .currentweather {
-     position: absolute;  
-     top: 45px;
-     left: 100px;
-     text-align: left;
-     background: radial-gradient(#32A287, #A3C4BC);
-     border: 1px solid #0C1618;
-     padding: .5rem;
-     box-shadow: 0 0 30px #A3C4BC;
- }
- 
+} 
  .col-head {
 	font-weight: 700;
 	font-size: 1rem;
@@ -123,36 +114,13 @@ p {
 	border-bottom: 1px solid #333;
 	text-align: center;
 }
- .article {
-     min-height: 200px;
-     background-color: #DCEDFF;
-     color: #0C1618;
-     border: 1px solid #0C1618;
-     padding: 20px;
-     margin-top: 30px;
- }
- h1 h2 h3 h4 h5 h6 {
+  h1 h2 h3 h4 h5 h6 {
      font-family: 'Open Sans', sans-serif;
  }
  p {
      font-family: 'Volkhov', serif;
  }
- .article1 {
-     display: flexbox;
-     text-indent: 3em;
-     font-family:'Volkhov', serif;
- }
- .articleimage {
-     float: right;
-     margin: 0 15px 15px 15px;
-     box-shadow: 0 0 30px #A3C4BC;
- }
- .map {
-     float:left;
-     margin: 0 15px 15px 15px;
-     box-shadow: 0 0 30px #A3C4BC;
- }
- nav {
+  nav {
 	margin: 0 auto;
 	max-width: 760px;
 	background-color: #32A287;
@@ -177,7 +145,7 @@ p {
 }
 .navigation a:hover {
 	color: #0C1618;
-	background-color: #F9E900;
+	background-color: #F8F32B;
 }
 .responsive li {
 	display: block;
@@ -186,7 +154,6 @@ p {
     display: flex;
     flex-flow: wrap;
 }
-
 .flex-col {
 	flex: 1 1 auto;
 	background-color: #bed;
@@ -200,7 +167,6 @@ p {
 .flex, .column, .grid {
 	border-right: 1px solid #333;
 }
-
 .data {
 	display: block;
 	padding: 0 5px 5px;
@@ -218,9 +184,166 @@ p {
 .contact-center {
     text-align: center;
 }
-.show {
-    display: block;
+announcencment.show {
+    display: block; 
+    height: 50px; 
+    line-height: 50px; 
+    width: 900px;
+    background:#D72638; 
+    text-align: center
 }
 .hide {
     display: none;
 } 
+.title {
+    font-size: 2em;
+    max-width: 100%;
+    margin-top: 30px;
+    margin-left: 60px;    
+}
+.borderline {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: 10px solid #19647E;
+    margin-left: 52px;
+    margin-right: 52px;
+}
+.weatherimages {
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    grid-auto-rows: 300px;
+    grid-gap: 30px;
+    padding: 30px;
+}
+.gallery:hover {
+    box-shadow: 0 0 50px #333;
+}
+figure .image {
+    grid-area: span 1/span 1;
+  }
+  .gallery .image--horizontal {
+    grid-area: span 1/span 2;
+  }
+  .gallery .image--vertical {
+    grid-area: span 2/span 1;
+  }
+  .gallery .image--big {
+    grid-area: span 2/span 2;
+  }
+  @media (max-width: 300px) {
+    .gallery .image--horizontal,
+    .gallery .image--vertical,
+    .gallery .image--big {
+      grid-area: span 1/span 1;
+    }
+}
+  figure img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 1px;
+    background-color: rgb(255, 255, 255);
+  }
+  figcaption {
+    text-align: center;
+    color: black;
+  }
+ figure.gallery img[data-src] {
+    filter: blur(0.2em);
+    transition: 1.5s;
+  }
+ figure.gallery img {
+    filter: blur(0em);
+    transition: filter 3.5s;
+  }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+/*-------------form---------------*/
+
+form fieldset {
+    margin: 2em 2em;
+    border: 2px solid #19647E;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    }
+form legend {
+    color: #19647E;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.5em;
+}    
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: red;
+    font-size: 1rem;
+    text-align: left;
+}
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color : #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+form lael.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+form input.submitBtn {
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+form label.top input:required {
+    border-left: red solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}.flexly {
+	display: flex;
+	align-items: center;
+
+}
+#ratingvalue {
+	margin: 0 15px;
+	color: #19647E;
+}
+
+textarea {
+    border: solid 2px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
