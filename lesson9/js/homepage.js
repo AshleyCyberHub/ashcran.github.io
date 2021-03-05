@@ -1,40 +1,43 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-
+const requestURL = 'https:////byui-cit230.github.io/weather/data/towndata.json';
 fetch(requestURL)
-.then(function (response) {
-   return response.json();
-})
-.then(function (jsonObject) {
-  // console.table(jsonObject);  // temporary checking for valid response and data parsing
-   const towns = jsonObject['towns'];
-   for (let i = 0; i < towns.length; i++) {
-      let card = document.createElement('section');
-  // towns.forEach(town => {
-   if (towns[i].name == 'Preston' || towns[i].name == 'Soda Springs' || towns[i].name == 'Fish Haven'){
-      //let card = document.createElement('section');
-      let h2 = document.createElement('h2');
-      let h3 = document.createElement('h3');
-      let image = document.createElement('img');
-      let div1 = document.createElement('div');
-      let div2 = document.createElement('div');
-      let div3 = document.createElement('div');
-   
-      h2.textContent = towns[i].name;
-      h3.textContent = towns[i].moto;
-      div1.setAttribute('class', 'yearFounded')
-      div1.textContent = 'Year Founded: ' + towns[i].yearFounded;
-      div2.setAttribute('class', 'currentPopulation')
-      div2.textContent = 'Population: ' + towns[i].currentPopulation;
-      div3.setAttribute('class', 'averageRainfall')
-      div3.textContent = 'Average Rain Fall: ' + towns[i].averageRainfall;
-      image.setAttribute('src', towns[i].imageurl);
-     
-      card.appendChild(h2);
-      card.appendChild(h3);
-      card.appendChild(div1);
-      card.appendChild(div2);
-      card.appendChild(div3);
-      card.appendChild(image);
-      document.querySelector('.cards').appendChild(card);
-   }
-}});
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        // console.table(jsonObject);  // temporary checking for valid response and data parsing
+        const towns = jsonObject['towns'];
+        towns.forEach(town => {
+            if (town.name == "Preston" || town.name == "Soda Springs" || town.name == "Fish Haven"){
+                let card = document.createElement('section')
+                let div = document.createElement('div')
+                let h3 = document.createElement('h3');
+                let p1 = document.createElement('p');
+                let p2 = document.createElement('p');
+                let p3 = document.createElement('p');
+                let p4 = document.createElement('p');
+                let image = document.createElement('img');
+
+                div.setAttribute('class', 'townData')
+                h3.textContent = town.name;
+                h3.setAttribute('class', 'townName');
+                p1.textContent = town.motto;
+                p1.setAttribute('class', 'townMoto');
+                p2.textContent = "Year Founded: " + town.yearFounded;
+                p3.textContent = "Population: " + town.currentPopulation;
+                p4.textContent = "Annual Rain Fall: " + town.averageRainfall;
+                image.setAttribute('src', `images/homepage/${town.photo}`);
+                image.setAttribute('alt', town.name);
+
+                div.appendChild(h3);
+                div.appendChild(p1);
+                div.appendChild(p2);
+                div.appendChild(p3);
+                div.appendChild(p4);
+                card.appendChild(div);
+                card.appendChild(image);
+
+                document.querySelector('div.cards').appendChild(card);
+            }
+        });
+
+    });

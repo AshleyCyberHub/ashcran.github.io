@@ -27,4 +27,25 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
           }
+    }div.cards{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 15px;
+        text-align: center;
+
+        
+      margin: .5rem auto;
+        border:1px solid #bbb;
+      background-color: #eee;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    article {
+      display: flex;
+        flex-direction: row;
+    }
+    
+    article:nth-child(odd) {
+        flex-direction: row-reverse;
     }
