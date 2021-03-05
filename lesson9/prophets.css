@@ -4,9 +4,10 @@
     color: darkslateblue;
  }
  img {
-    width: 50%;
+    max-height: 340px;
     margin: 5px auto 0 auto;
     display: block;
+    border-radius: 10px;
     box-shadow: 0px 0px 10px 5px lightslategray;
  }
  main {
@@ -22,7 +23,7 @@
     border: solid 2px lightslategray;
     padding-bottom: 10px;
  }
-  .birth, .birthplace {
+  .birth, .birthplace, .length {
     text-align: center;
     padding-bottom: 3px;
  }
