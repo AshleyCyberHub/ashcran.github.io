@@ -1,18 +1,28 @@
 
     
-    @media only screen and (min-width: 32.5em) {
+    @media only screen and (min-width: 34.5em) {
         .navigation {
             display: flex;
+            
         }
         .navigation li {
             display: block; /* change state in small view */
-            flex: 1 1 auto;
+           /flex: 1 1 auto; 
+           
         }
+    .nav li {
+        max-width: 100%;
+    }
         .navigation a {
             text-align: center;
+            
         }
         .navigation li:first-child {
             display: none;
+        }
+        
+        .show {
+            max-width: 95%;
         }
         .mediumimage {
             display: block;
@@ -26,26 +36,30 @@
          .weatherimages {
             display: grid;
             grid-template-columns: 1fr 1fr;
-          }
-    }div.cards{
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-gap: 15px;
-        text-align: center;
-
-        
-      margin: .5rem auto;
-        border:1px solid #bbb;
-      background-color: #eee;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    article {
-      display: flex;
-        flex-direction: row;
-    }
-    
-    article:nth-child(odd) {
-        flex-direction: row-reverse;
+          }       
+       article {
+         max-width: 600px;
+         margin: .5rem auto;
+         border:1px solid #bbb;
+         background-color: linen;
+        } 
+        section .cards {
+          margin: .5rem auto;
+          border:1px solid #bbb;
+          background-color: #eee;
+          display: flex;
+          flex-wrap: wrap;
+        }
+        article {
+          display: flex;
+          flex-direction: row;
+        }
+        article:nth-child(odd) {
+            flex-direction: row-reverse;
+        }
+        img {
+            padding: 0;
+            margin-bottom: 10px;
+        }
+      
     }
