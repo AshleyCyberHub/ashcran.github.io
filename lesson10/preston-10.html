@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/lesson10/css/small.css">
+    <link rel="stylesheet" href="/lesson10/css/medium.css">
+    <link rel="stylesheet" href="/lesson10/css/large.css">
+    
+    <title>Ashley Crandall Weather Site Plan</title>
+    <meta name="description" content="WDD 230 Week 10"/>
+  </head>
+  <body onload="bannerAlert()">
+    <header>
+        <div id="announcement" class="show">
+        Saturday = Preston Pancakes in the Park!
+        9:00 a.m. Saturday at the city park pavilion.
+       </div>
+          <div class="logo-box">
+           <img src="images/weathericon.png"  alt="natures temperature logo box" width="100"/>
+          </div>
+          <div class="site-name">
+              <h1 class="page">Nature's Temperature</h1>
+               <p class="pagemoto">When you need to know your weather...</p>
+          </div>
+          <div class="nav-list"> 
+            <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>   
+                <li><a href="https://ashleycyberhub.github.io/lesson9/index.html">Home</a></li>
+                <li class="active"><a href="https://ashleycyberhub.github.io/lesson6/preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="https://ashleycyberhub.github.io/lesson8/stormcenter.html">Storm Center</a></li>    
+                <li><a href="https://ashleycyberhub.github.io/gallery/gallery.html">Gallery</a></li>
+            </ul>
+           </nav>
+          </div>
+        </header>    
+<main><main>
+    <div class="top">
+     <h2>Preston, Idaho</h2>
+
+<div class="hero">
+    <picture class="heroimg">
+
+      <source media="(max-width:500px)" srcset="images/prestonfields300px.jpg" />
+      <source media="(max-width:900px)" srcset="images/prestonfields500px.jpg"/>
+      <img src="images/prestonfields.jpg" alt="preston farm fields" />
+ <!--<img src="images/hero/prestonfields.jpg" alt="preston farm fields" class="largeimage"/>-->
+        
+    </picture>
+
+
+<section class="weathersummary">
+<h3>Weather Summary</h3>
+<p>Currently: <span id="current-temp"></span>&deg; F</p>
+<p>High: <span id="high-temp"></span>&deg; F</p>
+<p>Wind Chill: <span id="wind-chill"></span></p>
+<p>Humidity: <span id="humidity"></span>%</p>
+<p>Wind Speed: <span id="wind-speed"></span>mph</p>
+</section>
+</div>
+<div class=".forecast">
+
+<h2>5 Day Forecast</h2>
+<div class="flex">
+    <div class="flex-col">
+  <span id="dayofweek1"></span>
+  <img id="imagesrc1">&nbsp;
+                <img src="" alt="" id="icon1" />
+  <span id="forecast1">&deg; F</span>
+</div>
+<div class="flex-col">
+  <span id="dayofweek2"></span>
+  <img id="imagesrc2">&nbsp;
+                <img src="" alt="" id="icon2" />
+  <span id="forecast2">&deg; F</span>
+</div>
+<div class="flex-col">
+  <span id="dayofweek3"></span>
+  <img id="imagesrc3">&nbsp;
+                <img src="" alt="" id="icon3" />
+  <span id="forecast3">&deg; F</span>
+</div>
+<div class="flex-col">
+  <span id="dayofweek4"></span>
+  <img id="imagesrc4">&nbsp;
+                <img src="" alt="" id="icon4" />
+  <span id="forecast4">&deg; F</span>
+</div>
+<div class="flex-col">
+    <span id="dayofweek5"></span>
+    <img id="imagesrc5">&nbsp;
+                  <img src="" alt="" id="icon5" />
+    <span id="forecast5">&deg; F</span>
+  </div>
+
+</div>
+<div class="article">
+<section class="articleimage">
+<img src="images/prestonrodeo.jpeg" alt="rodeo image" width="300"/></section>
+<h3>Preston Festivities</h3>
+<p class="article1">
+For several years the city held a "Napoleon Dynamite Festival" in the summer. Many of the featured
+festival themes related to events occurring during the film. For example: Tetherball Tournament, 
+Tater Tot Eating Contest, Moon Boot Dance, Impersonation, Look-A-Like Contest, Football Throwing 
+Contest and more. In 2004 there was a single day event that drew approximately 300 people. 
+Although this was not a large crowd, it did help raise $1,500 for the Preston School District 
+Education Foundation. In 2005 an estimated 6,000 people attended the event, but that number 
+dropped to an estimated 400 people in 2006. The 2007 and 2008 event was held along with the 
+'That Famous Preston Night Rodeo' in Preston. There are no plans for reviving the event. 'That 
+Famous Preston Night Rodeo' is usually held in late July, along with the Franklin County parade. 
+The rodeo's name ('That Famous Preston Night Rodeo') comes from it being the first rodeo held 
+during night time. It includes many events such as bull riding, barrel racing, and other popular 
+s. The Franklin county parade includes floats and advertisements of local businesses. The rodeo 
+and parade remain one of the town's most popular local events and traditions.</p>
+</div>
+    
+            <div class="contact-center">
+                <div class="map">
+                    <img src="images/prestonmap.png" alt="preston map" width="400"/>
+                    </div>
+            <h3>Contact Us! </h3>
+            <h4>5555 Preston Road</h4>
+            <h4>Preston, Idaho 83623</h4>
+            <h4>555-555-5555</h4>
+            <h4>naturestemp@naturestemp.com</h4>
+            <img src="images/iconfinder_Colored_Facebook3_svg_5365678.png" alt="facebook logo" width="60" />
+            <img src="images/iconfinder_25_social_2609558.png" alt="instagram logo" width="60" />
+            <img src="images/iconfinder_1_Twitter3_colored_svg_5296516.png" alt="twitter logo" width="60" />
+           </div>
+           </div>
+</main>
+     <div class="frame"> <a href="">Wireframe</a>
+    </div>
+    
+<!-- FOOTER HERE -->   
+<footer>
+    <div class="footer1">
+    &copy; 2021 Natures Temperature | Ashley Crandall | Texas |
+<a href="https://www.byui.edu" target="_blank">BYUI Online Learning</a>
+  <br>
+ <span id="date"></span><br />
+ <span id="imagesrc"></span> &nbsp; <img src="" alt="weather app" id="icon">
+    </div>
+</footer>
+  <script src="js/date.js"></script>
+  <script src="js/ham.js"></script>       
+  <script src="js/alert.js"></script>
+  <script src="js/weatherapi.js"></script>
+  <script src="js/forecast.js"></script>
+</body>
+</html> 

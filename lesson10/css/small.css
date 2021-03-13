@@ -1,0 +1,228 @@
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    border: 50px solid #4d7ea8;   
+}
+header {
+    color: #0C1618; 
+    background-color: #A3C4BC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.logo-box {
+    display: inline-block;
+    max-width: 100%;
+}
+.moto {
+    font-style: italic;
+}
+header section h1 p {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #4d7ea8;
+    padding: 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #0C1618;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+nav ul li a:hover {
+    color: #0C1618;
+    background-color: #F8F32B;
+}
+nav ul.hide {
+    display: none;
+}
+nav ul li a {
+    color: #0C1618;
+    background-color: #4d7ea8;
+}
+.navmenu {
+    background-color: #4d7ea8;
+}
+.top {
+    text-align: center;
+}
+p {
+    font-family: 'Volkhov', serif;
+} 
+.heroimg {
+    display: block;
+    align-content: center;
+    max-width: 100%;
+    margin: auto;
+}
+
+/*
+.largeimage{
+    display: none;
+}
+.mediumimage {
+    display: none;
+}
+.smallimage{
+    display: inline-flexbox;
+}*/
+.hero {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  text-align: center;
+}
+.weathersummary {
+    position: absolute;
+    top: 40px;
+    left: 50px;    
+    background: radial-gradient(#32A287, #A3C4BC);
+    border: 1px solid #0C1618;
+    padding: .5rem;
+    box-shadow: 0 0 30px #A3C4BC;
+}
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #000;
+    padding: 15px;
+    background-color: #DCEDFF;
+    color: #0C1618;
+}
+.footer1 {
+       padding: 10px;
+    background-color: #A3C4BC;
+    background-color: ;
+       text-align: center;     
+ }
+
+
+ .forecast {
+    display: ;
+ }
+ .col-head {
+	font-weight: 700;
+	font-size: 1rem;
+	background-color: #4d7ea8;
+	color: #0C1618;
+}
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+	text-align: center;
+}
+ .article {
+     min-height: 200px;
+     background-color: #DCEDFF;
+     color: #0C1618;
+     border: 1px solid #0C1618;
+     padding: 20px;
+     margin-top: 30px;
+ }
+ h1 h2 h3 h4 h5 h6 {
+     font-family: 'Open Sans', sans-serif;
+ }
+ p {
+     font-family: 'Volkhov', serif;
+ }
+ .article1 {
+     display: flexbox;
+     text-indent: 3em;
+     font-family:'Volkhov', serif;
+ }
+ .articleimage {
+     float: right;
+     margin: 0 15px 15px 15px;
+     box-shadow: 0 0 30px #A3C4BC;
+ }
+ .map {
+     float:left;
+     margin: 0 15px 15px 15px;
+     box-shadow: 0 0 30px #A3C4BC;
+ }
+ nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #4d7ea8;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #0C1618;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: #0C1618;
+	background-color: #F8F32B;
+}
+.responsive li {
+	display: block;
+}
+.flex {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.flex-col {
+	flex: 1 1 auto;
+	background-color: #bed;
+}
+.flex-col {
+    border-top: 3px solid #4d7ea8;
+	border-bottom: 3px solid #4d7ea8;
+	border-left: 3px solid #4d7ea8;
+	text-align: center;
+}
+
+.flex, .column, .grid {
+	border-right: 3px solid #4d7ea8;
+}
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+    text-align: center;
+}
+.contact {
+    min-height: 200px;
+    background-color: #DCEDFF;
+    color: #0C1618;
+    border: 1px solid #0C1618;
+    padding: 20px;
+    margin-top: 30px;
+}
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+  
