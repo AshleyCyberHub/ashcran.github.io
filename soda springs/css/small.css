@@ -1,7 +1,8 @@
 body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
-    border: 50px solid #4d7ea8;   
+    border-top: 50px solid #4d7ea8;  
+    border-bottom: 50px solid #4d7ea8; 
 }
 header {
     color: #0C1618; 
@@ -24,8 +25,7 @@ header {
 header section h1 p {
     margin: 0;
     padding: 0;
-}
-.active {
+}.active {
     /* box-shadow: 2px 2px 2px 2px red;*/
     border-bottom: 3px solid red;
      margin: 0 auto;
@@ -68,14 +68,14 @@ nav ul li a {
 p {
     font-family: 'Volkhov', serif;
 } 
-.heroimg {
+/*.heroimg {
     display: block;
     align-content: center;
-    max-width: 100%;
+    max-width: 94%;
     margin: auto;
-}
+}*/
 
-/*
+
 .largeimage{
     display: none;
 }
@@ -94,10 +94,10 @@ p {
 }
 .weathersummary {
     position: absolute;
-    top: 40px;
+    top: 450px;
     left: 50px;    
     background: radial-gradient(#32A287, #A3C4BC);
-    border: 1px solid #0C1618;
+    border: 3px solid #0C1618;
     padding: .5rem;
     box-shadow: 0 0 30px #A3C4BC;
 }
@@ -105,12 +105,13 @@ p {
     display: block;
     margin: 10px auto;
     border: 1px dashed #000;
-    padding: 15px;
+    padding: 18px;
     background-color: #DCEDFF;
     color: #0C1618;
 }
 .footer1 {
        padding: 10px;
+       padding-top: 20px;
     background-color: #A3C4BC;
     background-color: ;
        text-align: center;     
@@ -157,10 +158,13 @@ p {
      box-shadow: 0 0 30px #A3C4BC;
  }
  .map {
-     float:left;
-     margin: 0 15px 15px 15px;
-     box-shadow: 0 0 30px #A3C4BC;
- }
+    float:left;
+    margin: 0 15px 15px 15px;
+    box-shadow: 0 0 30px #A3C4BC;
+}
+ .contact-center {
+    text-align: center;
+}
  nav {
 	margin: 0 auto;
 	max-width: 760px;
