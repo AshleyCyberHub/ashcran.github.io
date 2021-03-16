@@ -28,7 +28,7 @@ header {
     font-style: italic;
     font-size: 1em;
 }
-.header section h1 p {
+header section h1 p {
     margin: 0;
     padding: 0;
 }
