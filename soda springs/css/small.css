@@ -19,8 +19,15 @@ header {
     display: inline-block;
     max-width: 100%;
 }
+.page {
+    font-size: 2em;
+    text-align: center;
+}
 .moto {
+    text-align: center;
     font-style: italic;
+    font-size: 1em;
+}
 }
 header section h1 p {
     margin: 0;

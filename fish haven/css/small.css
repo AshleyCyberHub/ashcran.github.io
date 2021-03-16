@@ -2,7 +2,7 @@ body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
     border-top: 50px solid #4d7ea8;   
-    border: 50px solid #4d7ea8;
+    border-bottom: 50px solid #4d7ea8;
 }
 header {
     color: #0C1618; 
@@ -19,8 +19,14 @@ header {
     display: inline-block;
     max-width: 100%;
 }
+.page {
+    font-size: 2em;
+    text-align: center;
+}
 .moto {
+    text-align: center;
     font-style: italic;
+    font-size: 1em;
 }
 header section h1 p {
     margin: 0;
