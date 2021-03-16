@@ -1,7 +1,8 @@
 body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
-    border: 50px solid #4d7ea8;   
+    border-top: 50px solid #4d7ea8;   
+    border-bottom: 50px solid #4d7ea8;
 }
 header {
     color: #0C1618; 

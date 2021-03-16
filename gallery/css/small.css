@@ -1,11 +1,12 @@
 body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
-    border: 50px solid #19647E;   
+    border-top: 50px solid #19647E;  
+    border-bottom: 50px solid #19647E; 
 }
 header {
     color: #0C1618; 
-    background-color: #DCEDFF;
+    background-color: #A3C4BC;
     display: flex;
     flex-direction: column;
     justify-content: center;
