@@ -55,6 +55,15 @@
           display: flex;
           flex-wrap: wrap;
         }
+        .weathersummary {
+            position: absolute;
+            top: 40px;
+            left: 50px;    
+            background: radial-gradient(#32A287, #A3C4BC);
+            border: 3px solid #4d7ea8;
+            padding: .5rem;
+            box-shadow: 0 0 30px #A3C4BC;
+        }
         article {
           display: flex;
           flex-direction: row;

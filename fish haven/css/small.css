@@ -119,14 +119,13 @@ p {
 .footer1 {
        padding: 10px;
     background-color: #A3C4BC;
-    background-color: ;
        text-align: center;     
  }
 
-
+/*
  .forecast {
     display: ;
- }
+ }*/
  .col-head {
 	font-weight: 700;
 	font-size: 1rem;

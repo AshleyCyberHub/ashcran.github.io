@@ -119,14 +119,19 @@ p {
        padding: 10px;
        padding-top: 20px;
     background-color: #A3C4BC;
-    background-color: ;
        text-align: center;     
  }
+.articleimage2 {
+    max-width: 300px;
+    float: right;
+    margin: 0 15px 15px 15px;
+    box-shadow: 0 0 30px #A3C4BC;
 
+}
 
- .forecast {
+ /*.forecast {
     display: ;
- }
+ }*/
  .col-head {
 	font-weight: 700;
 	font-size: 1rem;
