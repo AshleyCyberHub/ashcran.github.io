@@ -73,7 +73,7 @@ p {
     font-family: 'Volkhov', serif;
 } 
 .map {
-    float:left;
+    display: none;
 }
 .contentbox {
     display: block;

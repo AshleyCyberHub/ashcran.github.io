@@ -164,9 +164,8 @@ p {
      box-shadow: 0 0 30px #A3C4BC;
  }
  .map {
-     float:left;
-     margin: 0 15px 15px 15px;
-     box-shadow: 0 0 30px #A3C4BC;
+     display: none;
+     
  }
  nav {
 	margin: 0 auto;

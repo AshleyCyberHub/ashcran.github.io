@@ -33,7 +33,13 @@
         .largeimage {
             display: none;
         }*/
-        
+        .map {
+            display: block;
+            float:left;
+            margin: 0 15px 15px 15px;
+            box-shadow: 0 0 30px #A3C4BC;
+        }
+
          .weatherimages {
             display: grid;
             grid-template-columns: 1fr 1fr;

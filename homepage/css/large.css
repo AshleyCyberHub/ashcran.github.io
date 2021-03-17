@@ -18,6 +18,13 @@
         border-right: 1px solid rgba(0, 0, 0, 0.3);
         padding: .6rem 1rem;       
     }
+    .map {
+        display: block;
+        float: left;
+        margin: 0 15px 15px 15px;
+        box-shadow: 0 0 30px #A3C4BC;
+        }
+    }
     /*
     .smallimage {
         display: none;
