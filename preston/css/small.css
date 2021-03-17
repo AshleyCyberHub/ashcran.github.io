@@ -102,12 +102,16 @@ p {
 }
 .weathersummary {
     position: absolute;
-    top: 40px;
+    top: 0;
     left: 50px;    
     background: radial-gradient(#32A287, #A3C4BC);
     border: 3px solid #4d7ea8;
     padding: .5rem;
     box-shadow: 0 0 30px #A3C4BC;
+}
+.forecast {
+
+    margin-top: 100px;
 }
 .contentbox {
     display: block;
