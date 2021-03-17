@@ -118,16 +118,15 @@ p {
     color: #0C1618;
 }
 .footer1 {
-       padding: 10px;
+    padding: 10px;
     background-color: #A3C4BC;
-    background-color: ;
-       text-align: center;     
+    text-align: center;     
  }
 
 
- .forecast {
+ /*.forecast {
     display: ;
- }
+ }*/
  .col-head {
 	font-weight: 700;
 	font-size: 1rem;
