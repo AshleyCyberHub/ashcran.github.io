@@ -10,9 +10,12 @@
            flex: 1 1 auto; 
            
         }
-    .nav li {
+        .hero {
+            margin-bottom: 200px;
+        }
+       .nav li {
         max-width: 100%;
-    }
+        }
         .navigation a {
             text-align: center;
             
