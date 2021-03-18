@@ -251,4 +251,26 @@ p {
 .hide {
     display: none;
 }
+.events {     
+    position: relative;
+    display: block; /*grid;
+    grid-template-columns: 1fr 1fr;*/
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: radial-gradient(#32A287, #A3C4BC);
+    border: 3px solid #4d7ea8;
+    padding: .5rem;
+    /*padding-right: 50px;*/
+    box-shadow: 0 0 30px #A3C4BC;
+}
+.eventimg {
+    float: left;
+    margin-top: 22px;
+    margin-left: 20px;
+    box-shadow: 0 0 30px #4d7ea8;
+    }
+
+}
+  
   
