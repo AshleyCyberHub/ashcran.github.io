@@ -70,19 +70,20 @@ nav ul li a {
 }
 .top {
     text-align: center;
+    margin-bottom: 150px;
 }
 p {
     font-family: 'Volkhov', serif;
 } 
-/*.heroimg {
-    display: block;
+.heroimg {
+  /*  display: block;
     align-content: center;
-    max-width: 94%;
+    max-width: 1200px;*/
     margin: auto;
-}*/
+}
 
 
-.largeimage{
+/*.largeimage{
     display: none;
 }
 .mediumimage {
@@ -91,18 +92,23 @@ p {
 .smallimage{
     display: inline-flexbox;
 }*/
+/**/@media only screen and (min-width: 100px) {
+    .hero {
+        margin-bottom: 550px;
+    }
+}
 .hero {
   position: relative;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
   text-align: center;
 }
 .weathersummary {
     position: absolute;
     top: 450px;
-    left: 50px;    
+    left: 70px;    
     background: radial-gradient(#32A287, #A3C4BC);
     border: 3px solid #4d7ea8;
     padding: .5rem;

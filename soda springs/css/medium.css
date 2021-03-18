@@ -10,9 +10,9 @@
            flex: 1 1 auto; 
            
         }
-        .hero {
+        /*.hero {
             margin-bottom: 200px;
-        }
+        }*/
        .nav li {
         max-width: 100%;
         }
@@ -36,7 +36,9 @@
         .largeimage {
             display: none;
         }*/
-        
+        .top {
+            margin-bottom: 50px;
+        }
          .weatherimages {
             display: grid;
             grid-template-columns: 1fr 1fr;
