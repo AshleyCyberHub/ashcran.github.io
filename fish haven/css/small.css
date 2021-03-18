@@ -97,14 +97,14 @@ p {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 155px;
+  margin-bottom: 100px;
   margin-top: 40px;
   text-align: center;
 }
 .weathersummary {
     position: absolute;
-    top: 40px;
-    left: 50px;    
+    top: 0;
+    left: 70px;    
     background: radial-gradient(#32A287, #A3C4BC);
     border: 3px solid #4d7ea8;
     padding: .5rem;
