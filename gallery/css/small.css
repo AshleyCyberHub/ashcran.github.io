@@ -191,7 +191,7 @@ p {
     margin: 0 15px 15px 15px;
     box-shadow: 0 0 30px #A3C4BC;
 }
-announcencment.show {
+.show {
     display: block; 
     height: 50px; 
     line-height: 50px; 
