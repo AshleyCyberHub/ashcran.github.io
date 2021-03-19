@@ -238,7 +238,7 @@ p {
     height: 50px; 
     line-height: 50px; 
     width: 900px;
-    background:#F8F32B; 
+    background: #f8f32b;; 
     text-align: center
 }
 .hide {
