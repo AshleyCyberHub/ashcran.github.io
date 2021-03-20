@@ -106,9 +106,7 @@ p {
   text-align: center;
 }
 .weathersummary {
-    position: absolute;
-    top: 0;
-    left: 70px;    
+    display: block; 
     background: radial-gradient(#32A287, #A3C4BC);
     border: 3px solid #4d7ea8;
     padding: .5rem;

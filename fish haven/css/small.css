@@ -97,14 +97,12 @@ p {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-top: 40px;
   text-align: center;
 }
 .weathersummary {
-    position: absolute;
-    top: 0;
-    left: 70px;    
+    display: block; 
     background: radial-gradient(#32A287, #A3C4BC);
     border: 3px solid #4d7ea8;
     padding: .5rem;
@@ -235,10 +233,11 @@ p {
 }
 .show {
     display: block; 
+    flex-wrap: wrap;
     height: 50px; 
     line-height: 50px; 
     width: 900px;
-    background: #f8f32b;; 
+    background: #f8f32b; 
     text-align: center
 }
 .hide {
@@ -260,7 +259,7 @@ p {
 .eventimg {
     float: left;
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 35px;
     box-shadow: 0 0 30px #4d7ea8;
 
     }

@@ -17,7 +17,18 @@
         border: none;
         border-right: 1px solid rgba(0, 0, 0, 0.3);
         padding: .6rem 1rem;       
-    } 
+    }
+     .weathersummary {
+        position: absolute;
+        top: 0;
+        margin-bottom: 70px;
+        left: 50px;    
+        background: radial-gradient(#32A287, #A3C4BC);
+        border: 3px solid #4d7ea8;
+        padding: .5rem;
+        box-shadow: 0 0 30px #A3C4BC;
+    }
+
     .map {
         display: block;
         float:left;
