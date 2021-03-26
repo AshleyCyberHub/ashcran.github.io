@@ -1,14 +1,14 @@
-const requestjson = '/chamber/json/member.json';
-fetch(requestjson)
+const requestURL = 'https://ashleycyberhub.github.io/chamber/json/member.json';
+fetch(requestURL)
     .then(function (response) {
         return response.json();
     })
     .then(function (jsonObject) {
         // console.table(jsonObject);  // temporary checking for valid response and data parsing
-        const levels = jsonObject['level'];
+        const levels = jsonObject['levels'];
         levels.forEach(level => {
-            if (level.name == "Non-profit" || level.name == "Bronze" || level.name == "Silver"){
-                let level = document.createElement('article')
+            if (level.name == "Non-profit" || level.name == "Bronze" || level.name == "Silver" || level.name == "Gold"){
+                let card = document.createElement('article')
                 let div = document.createElement('div')
                 let h2 = document.createElement('h2');
                 let h3 = document.createElement('h3');
@@ -26,10 +26,10 @@ fetch(requestjson)
                 div.appendChild(h2);
                 div.appendChild(h3);
                 div.appendChild(p1);
-                level.appendChild(div);
+                card.appendChild(div);
             
 
-                document.querySelector('div.levels').appendChild(level);
+                document.querySelector('div.cards').appendChild(card);
             }
         });
 

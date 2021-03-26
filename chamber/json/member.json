@@ -1,5 +1,5 @@
 {
-    "level": [
+    "levels": [
       {
         "name": "Non-profit",
         "annualfee": "$100",
@@ -23,4 +23,6 @@
         "annualfee": "$1000",
         "perks": "- recogntion, advertisement on website and social media accounts, 4 tickets to annual dinner, business training, plaque award for membership",
         "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
-      },
+      }
+      )
+    }

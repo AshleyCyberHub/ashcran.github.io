@@ -73,7 +73,7 @@ textarea {
     padding: .75rem;
     width: 100%;
 }
-.level{
+.cards {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
