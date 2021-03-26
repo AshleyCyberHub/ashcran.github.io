@@ -1,0 +1,85 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bree Serif', serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+form fieldset {
+    margin: 2em 2em;
+    border: 2px solid #7d7461;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    }
+form legend {
+    color: #4c2c72;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.5em;
+}    
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color:#4C2C72;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color : #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+form lael.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+form input.submitBtn {
+    align-content: center;
+    border: none;
+    margin-left: 40px;
+    background-color: #FFAD05;
+    color: white;
+    border-radius: .6rem;
+    padding: .75rem 1.5rem;
+    width: 100%;
+    max-width: 20rem;
+}
+.submitBtn {
+    align-content:center;
+}
+form label.top input:required {
+    border-left: #FFAD05 solid 6px;
+}
+form label.top input:required:valid {
+    border-left: #4C2C72 solid 6px;
+}.flexly {
+	display: flex;
+	align-items: center;
+
+}
+
+textarea {
+    border: solid 2px #F3FAE1;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+}
+.level{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    align-content: center;
+    text-align: center;
+    margin: .5rem;
+    background-color: rgb(238, 234, 234) ;
+    
+}

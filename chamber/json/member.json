@@ -1,0 +1,26 @@
+{
+    "level": [
+      {
+        "name": "Non-profit",
+        "annualfee": "$100",
+        "perks": "- recognition ",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      },
+      {
+        "name": "Bronze",
+        "annualfee": "$200",
+        "perks": "- recognition, advertisement on wesite",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+      },
+      {
+        "name": "Silver",
+        "annualfee": "$400",
+        "perks": "- recognition, advertisement on website and social media accounts, 2 tickets to annual dinner, business training",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+      },
+      {
+        "name": "Gold",
+        "annualfee": "$1000",
+        "perks": "- recogntion, advertisement on website and social media accounts, 4 tickets to annual dinner, business training, plaque award for membership",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+      },

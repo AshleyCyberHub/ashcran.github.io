@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/chamber/css/small.css">
+    <link rel="stylesheet" href="/chamber/css/medium.css">
+    <link rel="stylesheet" href="/chamber/css/large.css">
+    <link rel="stylesheet" href="/chamber/css/normalize.css">
+    
+    <title>Ashley Crandall Join Page</title>
+    <meta name="join page for chamber of commerce" content="WDD 230 Chamber of Commerce"/>
+  </head>
+  <!--<body onload="bannerAlert()">
+    <header>
+        <div id="announcement" class="show">
+        Saturday = Preston Pancakes in the Park!
+        9:00 a.m. Saturday at the city park pavilion.
+       </div>-->
+          <div class="logo-box">
+           <img src="images/weathericon.png"  alt="natures temperature logo box" width="100"/>
+          </div>
+          <section class="site-name">
+              <h1 class="page">Sanger Chamber of Commerce</h1>
+               <p class="moto">Home of the Sanger Indians</p>
+          </section>
+          <div class="nav-list"> 
+            <nav>
+                <ul class="navigation">
+                    <li><a class="ham" href="#">&#9776; Menu</a></li>   
+                    <li class="active"><a href="">Home</a></li>
+                    <li><a href="">Sanger</a></li>
+                    <li><a href="">Join</a></li>
+                    <li><a href="">Directory</a></li>
+                    <li><a href="">Contact</a></li>    
+                </ul>
+           </nav>
+          </div>
+        </header>    
+
+<main>
+    <h1 style="margin-left: 20px; font-size: 2em; color: #4c2c72;">Join the Chamber of Commerce of Sanger</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Your Information</legend>
+               <label class="top">First Name*<input type="text" name="fname" required></label>
+               <label class="top">Last Name*<input type="text" name="lname" required></label>
+               <label class="top">Title<input type="text" name="title"></label>
+               <label class="top">Email*<input type="email" name="email" placeholder="example@gmail.com" required></label>
+               <label class="top">Cell Phone*<input type="tel" name="phone" required></label>
+            </fieldset>
+               <fieldset>
+                   <legend>Business Information</legend>
+               <label class="top">Business Name*<input type="text" name="bname" required></label>
+               <label class="top">Business Address<input type="text" name="baddress"></label>   
+               <label class="top">Business Website<input type="url" name="bwebsite" placeholder="https://"></label>      
+            </fieldset>
+            <div class="level"></div>
+            <fieldset>
+                <legend>Membership</legend>               
+                <label class="top">Member Level<select name="subject">
+                    <option value="">Please Select &#9662;</option>
+                    <option value="nonprofit">Non-profit</option>
+                    <option value="bronze">Bronze</option>
+                    <option value="silver">Silver</option>
+                    <option value="gold">Gold</option>
+                </select>
+            </label>
+        </fieldset>
+
+         
+            <fieldset>
+        <legend>Additional Information</legend>
+        <label class="top">Comments:</label>
+         <textarea id="area" name="comment" rows="4" cols="50">
+    </textarea>
+            </fieldset>
+            <input type="submit" value="Enroll" class="submitBtn">
+        </form>
+
+        <div class="contact">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106618.27089575185!2d-97.24864264386542!3d33.37573983322009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864db22a54d3df9f%3A0x18bbce11129a71d6!2sSanger%2C%20TX%2076266!5e0!3m2!1sen!2sus!4v1616712188461!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                
+
+              </div>
+            <div class="contact-center">
+            <h3>Contact Us! </h3>
+            <h4>5555 Preston Road</h4>
+            <h4>Preston, Idaho 83623</h4>
+            <h4>555-555-5555</h4>
+            <h4>naturestemp@naturestemp.com</h4>
+            <img src="images/iconfinder_Colored_Facebook3_svg_5365678.png" alt="facebook logo" width="60" />
+            <img src="images/iconfinder_25_social_2609558.png" alt="instagram logo" width="60" />
+            
+           </div>
+           </div>
+        
+    </main>
+    
+<!-- FOOTER HERE -->   
+<footer>
+    <div class="footer1">
+    &copy; 2021 Natures Temperature | Ashley Crandall | Texas |
+<a href="https://www.byui.edu" target="_blank">BYUI Online Learning</a>
+  <br>
+ <span id="date"></span><br /><br>
+    </div>
+</footer>
+  <script src="js/date.js"></script>
+  <script src="js/alert.js"></script>    
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/webfontload.js"></script>
+  <script src="js/lazyload.js"></script>
+  <script src="js/rating.js"></script>
+  <script src="js/ham.js"></script>
+  <script src="level.js"></script>
+  
+</body>
+</html> 
