@@ -1,10 +1,110 @@
+/* All Pages */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Bree Serif', serif;
 }
-
 p {
     font-family: 'Open Sans', sans-serif;
 }
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    border: 40px solid #4c2c72;   
+}
+.logo-box {
+    display: block;
+    margin-left: 40px;
+}
+.page {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 3em;
+    color: #4c2c72;
+}
+.moto {
+    margin-top: 0;
+    text-align: center;
+    font-style: italic;
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #DCEDFF;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+nav {
+    background-color: #4C2C72;
+    padding: 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul.hide {
+    display: none;
+}
+.active {
+    border-bottom: 3px solid #FFAD05;
+     margin: 0 auto;
+     max-width: 760px;
+ }
+ nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #4C2C72;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a:hover {
+	color: #0C1618;
+	background-color: #FFAD05;
+}
+.responsive li {
+	display: block;
+}
+.hero {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  .contact {
+    min-height: 200px;
+    color: #0C1618;
+    padding: 20px;
+    margin-top: 30px;
+}
+  .contact-center {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 15px;
+    color: #0C1618;
+}
+.map {
+    display: none;
+}
+.footer1 {
+    padding: 10px;
+    background-color: #dcd8d1;
+    text-align: center;     
+ }
+
+  /* All form pages */
 form fieldset {
     margin: 2em 2em;
     border: 2px solid #7d7461;
@@ -20,6 +120,7 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
+    margin-left: 20px;
     color:#4C2C72;
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
@@ -33,24 +134,29 @@ form label.top input, form label.top select {
     border-radius: 4px;
     padding: .75rem;
     color : #555;
-    width: 100%;
+    width: 85%;
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
 }
-form lael.sbs {
+form label.top {
+    margin-left: 20px;
+}
+form label.sbs {
     display: block;
+    margin-left: 20px;
     padding: .75rem 0;
     color: #555;
 }
 form input.submitBtn {
     align-content: center;
     border: none;
-    margin-left: 40px;
+    margin-top: 15px;
+    margin-left: 20px;
     background-color: #FFAD05;
     color: white;
-    border-radius: .6rem;
-    padding: .75rem 1.5rem;
-    width: 100%;
+    border-radius: .5rem;
+    padding: 1rem 3rem;
+    width: 85%;
     max-width: 20rem;
 }
 .submitBtn {
@@ -61,17 +167,14 @@ form label.top input:required {
 }
 form label.top input:required:valid {
     border-left: #4C2C72 solid 6px;
-}.flexly {
-	display: flex;
-	align-items: center;
-
 }
-
 textarea {
-    border: solid 2px #F3FAE1;
+    border: solid 2px #999;
     border-radius: 4px;
     padding: .75rem;
-    width: 100%;
+    width: 80%;
+    margin-left: 21px;
+    background-color: rgb(231, 227, 227);
 }
 .cards {
     display: grid;
@@ -82,4 +185,23 @@ textarea {
     margin: .5rem;
     background-color: rgb(238, 234, 234) ;
     
+}.cards article{
+    padding: 10px;
+    border: 3px solid #19647E ;
+    background-color:#DCEDFF ;
+}
+.lInfo{
+   padding: 8px; 
+}
+.lName{
+    font-size: 1.7rem;
+    margin-bottom: 8px;
+}
+.lannualfee{
+    margin: 0 auto 20px auto;
+}
+/* Contact page */
+.tower {
+        float: right;
+        margin-right: 50px;
 }

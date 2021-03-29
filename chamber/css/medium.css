@@ -1,0 +1,30 @@
+@media only screen and (min-width: 34.5em) {
+.navigation {
+    display: flex;
+ }
+.navigation li {
+    display: block; /* change state in small view */
+    flex: 1 1 auto; 
+ }
+.nav li {
+    max-width: 100%;
+ }
+.navigation a {
+    text-align: center;
+ }
+.navigation li:first-child {
+    display: none;
+ }
+ .logo-box {
+     float: left;
+    margin: 40px 0 0 60px;
+}
+.map {
+    display: block;
+    float:left;
+    margin: 0 15px 15px 15px;
+    box-shadow: 0 0 30px #A3C4BC;
+    max-width:300px ;
+}
+
+}
