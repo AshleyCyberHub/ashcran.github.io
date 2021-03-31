@@ -1,4 +1,4 @@
-const cityapiURL = 'https://api.openweathermap.org/data/2.5/weather?zip=76266,us=imperial&appid=ccf182f6f2ce767bdb4022ac3e823f35';
+const cityapiURL = 'https://api.openweathermap.org/data/2.5/weather?zip=76266,us&imperial&appid=ccf182f6f2ce767bdb4022ac3e823f35';
 
 fetch(cityapiURL)
   .then((response) => response.json())
