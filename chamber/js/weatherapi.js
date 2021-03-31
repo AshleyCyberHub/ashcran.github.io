@@ -1,6 +1,6 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=33.363&lon=-97.174&appid=ccf182f6f2ce767bdb4022ac3e823f35';
+const cityapiURL = 'https://api.openweathermap.org/data/2.5/weather?zip=76266,us=imperial&appid=ccf182f6f2ce767bdb4022ac3e823f35';
 
-fetch(apiURL)
+fetch(cityapiURL)
   .then((response) => response.json())
   .then((jsonObject) => {
    // console.log(jsObject);
