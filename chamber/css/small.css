@@ -8,7 +8,8 @@ p {
 body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
-    border: 40px solid #4c2c72;   
+    border-top: 40px solid #4c2c72;  
+    border-bottom: 40px solid #4c2c72; 
 }
 .logo-box {
     display: block;
@@ -82,18 +83,18 @@ nav ul.hide {
     margin-bottom: 70px;
     text-align: center;
   }
-  .contact {
+   .contact {
     min-height: 200px;
+    background-color: #ffac05bb;
     color: #0C1618;
+    border: 1px solid #0C1618;
     padding: 20px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
   .contact-center {
-    display: block;
-    margin: 10px auto;
     text-align: center;
-    padding: 15px;
-    color: #0C1618;
+    
 }
 .map {
     display: none;
@@ -105,7 +106,7 @@ nav ul.hide {
  }
 
   /* All form pages */
-form fieldset {
+form fieldset, .contact-page {
     margin: 2em 2em;
     border: 2px solid #7d7461;
     border-radius: 10px;
@@ -117,7 +118,7 @@ form legend {
     padding: 0 .5rem;
     font-size: 1.5em;
 }    
-form label.top, form div {
+form label.top, form div, .contact-page {
     display: block;
     padding-top: 1rem;
     margin-left: 20px;
@@ -201,10 +202,24 @@ textarea {
     margin: 0 auto 20px auto;
 }
 /* Contact page */
-.tower {
-        float: right;
-        margin-right: 50px;
+.contact-page {
+    align-content: center;
+    text-align: center;
 }
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    align-content: center;
+    text-align: center;
+    margin: .5rem;
+    background-color: rgb(238, 234, 234) ;
+    border: 3px solid #4c2c72;
+}
+.box1 {
+    display: block;
+}
+    
 /* home and city page */
 .weathersummary {
     display: block; 
@@ -220,15 +235,30 @@ textarea {
 
 .flex-col {
 	flex: 1 1 auto;
-	background-color: #bed;
-}
+    background-color: rgb(238, 234, 234) ;
+    }
 .flex-col {
-    border-top: 3px solid #4d7ea8;
-	border-bottom: 3px solid #4d7ea8;
-	border-left: 3px solid #4d7ea8;
 	text-align: center;
 }
-
-.flex, .column, .grid {
-	border-right: 3px solid #4d7ea8;
+.data {
+    display: block;
+    padding: 0 5px 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.col-head {
+	font-weight: 700;
+	font-size: 2rem;
+	color: #0C1618;
+	display: block;
+	padding: 5px;
+	text-align: center;
+}
+.board {
+    background-color: rgb(238, 234, 234) ;
+    border-radius: 6px;
+    text-align: center;
+    max-width: 85%;
+    font-weight: 2em;
+    margin: auto;
 }

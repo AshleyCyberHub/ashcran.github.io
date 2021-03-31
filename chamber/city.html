@@ -44,16 +44,14 @@
 
 <div class="hero">
     <picture class="heroimg">
-<!--
-      <source media="(max-width:500px)" srcset="images/prestonfields300px.jpg" />
-      <source media="(max-width:900px)" srcset="images/prestonfields500px.jpg"/>
-      <img src="images/prestonfields.jpg" alt="preston farm fields" />
- <img src="images/hero/prestonfields.jpg" alt="preston farm fields" class="largeimage"/>
--->
-    </picture>
-
-
-<section class="weathersummary">
+  <picture class="heroimg">
+    <source srcset="./images/hero/sanger_pavilion350px.jpg" source media="(max-width:500px)" />
+    <source srcset="./images/hero/sanger_pavilion500px.jpg"source media="(max-width:800px)" />
+    <source srcset="./images/hero/sanger_pavilion800px.jpg" source media="(max-width:1050px)"/>
+    <source srcset="./images/hero/sanger_pavilion1200px.jpg" source media="(max-width:1300px)"/>
+    <img src="images/hero/sanger_pavilion.jpg" alt="sanger pavilion at the park" />
+  </picture>
+     <section class="weathersummary">
 <h3>Weather Summary</h3>
 <p>Currently: <span id="current-temp"></span>&deg; F</p>
 <p>High: <span id="high-temp"></span>&deg; F</p>

@@ -19,14 +19,28 @@ nav ul li a {
 .logo-box {
     float: left;
     margin: 20px 0 0 60px;
-}
-.map {
+} .map {
     display: block;
     float:left;
     margin: 0 15px 15px 15px;
     box-shadow: 0 0 30px #A3C4BC;
-    max-width: 350px;
-}
+}/*
+.map {
+    float:left;
+    margin: 0 15px 15px 15px;
+    box-shadow: 0 0 30px #4c2c72;
+    max-width: 400px;
+}/*
+.contact-center {
+    display: block;
+    font-weight: 6em;
+    /*margin: 10px auto;
+    margin-top: px;
+    text-align: center;
+    padding: 15px;
+    color: #0C1618;
+
+}*/
 .weathersummary {
     position: absolute;
     top: 0;
@@ -36,4 +50,26 @@ nav ul li a {
     padding: .5rem;
     box-shadow: 0 0 30px #A3C4BC;
 }
+/*div.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+    margin: 20px auto;
+    border: 4px solid #4c2c72;
+  }*/
+  ul.boxes {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      font-size: 1.7em;
+  }
+  .box1 {
+      display: absolute;
+      align-items: center;
+      border: 3px solid #4c2c72;
+      text-align: center;
+      
+  }
+ 
+
 }

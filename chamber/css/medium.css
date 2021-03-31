@@ -24,8 +24,16 @@
     float:left;
     margin: 0 15px 15px 15px;
     box-shadow: 0 0 30px #A3C4BC;
-    max-width:300px ;
+    max-width:400px ;
+}/*
+.contact {
+    align-items: center;
 }
+.contact-center {
+    display:block;
+    margin-top: 80px;
+    text-align: center;
+}*/
 /* home and city page */
 .weathersummary {
     position: absolute;
@@ -36,4 +44,17 @@
     padding: .5rem;
     box-shadow: 0 0 30px #A3C4BC;
 }
+ ul.boxes {
+
+    margin: .5rem auto;
+    border:1px solid #bbb;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid #4c2c72;
+  }
+  /*boxes {
+    display: flex;
+    flex-direction: row;
+  }*/
 }

@@ -11,19 +11,17 @@
     <link rel="stylesheet" href="/chamber/css/medium.css">
     <link rel="stylesheet" href="/chamber/css/large.css">
     <link rel="stylesheet" href="/chamber/css/normalize.css">
-    
-    <title>Ashley Crandall Contact Page</title>
+        <title>Ashley Crandall Contact Page</title>
     <meta name="contact page for chamber of commerce" content="WDD 230 Chamber of Commerce"/>
   </head>
        <body>
            <header>
           <div class="logo-box">
-           
-           <img src="images/hero/sanger logo.jpg"  alt="sanger logo box" width="200"/>
+             <img src="images/hero/sanger logo.jpg"  alt="sanger logo box" width="200"/>
           </div>
           <section class="site-name">
               <h1 class="page">Sanger Chamber of Commerce</h1>
-               <div class="moto">Home of the <span style="color: #4c2c72; font-weight: bold;">Sanger</span><span style="color: #ffad05; font-weight: bold;"> Indians</span>.</div>
+               <div class="moto">Home of the <span style="color: #ffad05; font-weight: bold;">Sanger Indians</span>.</div>
           </section>
           <div class="nav-list"> 
             <nav>
@@ -39,28 +37,73 @@
           </div>
         </header>    
 <main>
+  <div class="hero">
+        <picture class="heroimg">
+          <source srcset="./images/sanger/oldsanger.jpg" source media="(max-width:150px)"/>
+          <source srcset="./images/sanger/oldsanger300px.jpg" source media="(max-width:500px)" />
+          <source srcset="./images/sanger/oldsanger500px.jpg"source media="(max-width:800px)" />
+          <source srcset="./images/sanger/oldsanger800px.jpg" source media="(max-width:1050px)"/>
+          <img src="images/sanger/oldsanger800px.jpg" alt="old train station in Sanger" />
+        </picture>
+        </div>
+        <div class="board">
+          <h1 style="text-align: center; color: #4c2c72;">Board of Directors</h1>
+          <h2 style="text-align: center; color: #ffad05; font-weight: 1.7em;">Board Officers</h2>
+          <div class="box1">
+        
+          <div class="flex">
+            <div class="flex-col">
+            <span class="col-head">Kelsi Bannahan</span>               
+            <span class="data">President</span>
+            <a href="https://www.facebook.com/kelsisellsdfw/"  target="_blank">Contact</a>
+            </div>
+            <div class="flex-col">
+              <span class="col-head">Sierra Long</span>
+                <span class="data">Vice President</span>
+                <a href="https://campgladiator.com/" target="_blank">Contact</a>
+                </div>
+            <div class="flex-col">
+              <span class="col-head">Nancy McAlister</span>
+                <span class="data">Treasurer</span>
+                <a href="https://www.thegypsycowgirl.com/" target="_blank">Contact</a>
+            </div>
+            </div>
+            </div>
+        </div>
+            <div>              
+              <h1 style="text-align: center; color: #4c2c72;">Board of Directors</h1>
+            <nav>
+            <ul class="boxes">
+              <li>Troy Spader</li>
+              <li>Jan Howard</li>
+              <li>Garry Marlin</li>
+              <li>Donny Mack</li>
+              <li>Judy Akins</li>
+              <li>Eddie Piercy</li>
+              <li>Verna White</li>
+              <li>Stephanie Underwood</li>
+            </ul>
+            </nav>
+        </div>
+  <div class="contact-page">
     <h1 style="margin-left: 20px; font-size: 2em; color: #4c2c72;">Contact us! We would love to hear from you.</h1>
-    
-    <form method="get" action="thanks.html">
-           <!-- <fieldset>
-                <legend>Your Information</legend>-->
+        <form method="get" action="thanks.html">
                <label class="top">First Name*<input type="text" name="fname" required></label>
                <label class="top">Last Name*<input type="text" name="lname" required></label>
                <label class="top">Email*<input type="email" name="email" placeholder="example@gmail.com" required></label>
                <label class="top">Cell Phone*<input type="tel" name="phone" required></label>
-          <!--  </fieldset>        
-            <fieldset>
-        <legend>Additional Information</legend>-->
         <label class="top">Comments:</label>
          <textarea id="area" name="comment" rows="4" cols="50">
     </textarea>
             </fieldset>
             <input type="submit" value="Contact Us!" class="submitBtn">
         </form>
-        <div class="contact">
+  </div>
+          <div class="contact">
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53309.12640695554!2d-97.21362203498666!3d33.37575458345617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864db22a54d3df9f%3A0x18bbce11129a71d6!2sSanger%2C%20TX%2076266!5e0!3m2!1sen!2sus!4v1616806596286!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
               </div>
+          
             <div class="contact-center">
             <h3>Sanger Chamber of Commerce </h3>
             <h4>P.O. Box 537, 300 Bolivar Street</h4>
@@ -70,15 +113,11 @@
             <h4>Monday - Friday: 9:00 AM - 3:00 PM</h4>
             <a href="https://www.facebook.com/">
                 <img src="images/hero/iconfinder_Colored_Facebook3_svg_5365678.png" alt="facebook logo" width="60" /></a>
-                <a href="https://www.instagram.com/"><img src="images/hero/iconfinder_25_social_2609558.png" alt="instagram logo" width="60" /></a>
-               
-              
+                <a href="https://www.instagram.com/"><img src="images/hero/iconfinder_25_social_2609558.png" alt="instagram logo" width="60" /></a>          
            </div>
            </div>
-        
-    </main>
-    
-<!-- FOOTER HERE -->   
+       </main>
+    <!-- FOOTER HERE -->   
 <footer>
     <div class="footer1">
     &copy; 2021 Chamber of Commerce | Ashley Crandall | Texas |
@@ -95,6 +134,5 @@
   <script src="js/rating.js"></script>
   <script src="js/ham.js"></script>
   <script src="js/level.js"></script>
-  
-</body>
+  </body>
 </html> 
