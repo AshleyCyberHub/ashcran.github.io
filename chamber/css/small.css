@@ -205,3 +205,30 @@ textarea {
         float: right;
         margin-right: 50px;
 }
+/* home and city page */
+.weathersummary {
+    display: block; 
+    background: radial-gradient(#32A287, #A3C4BC);
+    border: 3px solid #4d7ea8;
+    padding: .5rem;
+    box-shadow: 0 0 30px #A3C4BC;
+}
+.flex {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.flex-col {
+	flex: 1 1 auto;
+	background-color: #bed;
+}
+.flex-col {
+    border-top: 3px solid #4d7ea8;
+	border-bottom: 3px solid #4d7ea8;
+	border-left: 3px solid #4d7ea8;
+	text-align: center;
+}
+
+.flex, .column, .grid {
+	border-right: 3px solid #4d7ea8;
+}
