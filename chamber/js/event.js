@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = 'https://ashleycyberhub.github.io/chamber/json/events.json';
 fetch(requestURL)
     .then(function (response) {
         return response.json();
