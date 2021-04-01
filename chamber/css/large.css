@@ -66,4 +66,22 @@ nav ul li a {
 .eventimg {
     display: block;
 }
+.flyer {
+   display: block;
+   margin: auto;
+   max-width: 75%;
+   max-height: 1900px;
+   border: 4px solid black;
+   background-color: #4c2c72;
+   color: antiquewhite;
+   padding-bottom: 40px;
+}
+.flyerart {
+    display: block;
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+}
+.flyerimg {
+    float: left;
+    margin-right: 30px;
 }
