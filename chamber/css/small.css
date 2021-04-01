@@ -91,6 +91,7 @@ nav ul.hide {
     padding: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
+    box-shadow: 30px #4c2c72;
 }
   .contact-center {
     text-align: center;
@@ -261,4 +262,33 @@ textarea {
     max-width: 85%;
     font-weight: 2em;
     margin: auto;
+}
+/* city page */
+.historyimage {
+    display: block;
+    float: right;
+    box-shadow: 0 0 15px #999;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.history {
+    display: block;
+    text-align: center;
+    margin: 30px;
+    padding: 15px;
+}
+.article {
+    display: block;
+    padding: 20px;
+    background-color: rgb(238, 234, 234) ;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px;
+    box-shadow: 0 0 15px #999;
+    margin: 10px auto;
+}
+.artimg {
+    float: left;
+    margin-right: 30px;
 }

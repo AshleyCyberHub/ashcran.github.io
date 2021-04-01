@@ -23,24 +23,7 @@ nav ul li a {
     display: block;
     float:left;
     margin: 0 15px 15px 15px;
-    box-shadow: 0 0 30px #A3C4BC;
-}/*
-.map {
-    float:left;
-    margin: 0 15px 15px 15px;
-    box-shadow: 0 0 30px #4c2c72;
-    max-width: 400px;
-}/*
-.contact-center {
-    display: block;
-    font-weight: 6em;
-    /*margin: 10px auto;
-    margin-top: px;
-    text-align: center;
-    padding: 15px;
-    color: #0C1618;
-
-}*/
+}
 .weathersummary {
     position: absolute;
     top: 0;
