@@ -22,7 +22,8 @@ nav ul li a {
 } .map {
     display: block;
     float:left;
-    margin: 0 15px 15px 15px;
+    margin-top: 90px;
+    margin-left: 190px ;
 }
 .weathersummary {
     position: absolute;
@@ -53,6 +54,16 @@ nav ul li a {
       text-align: center;
       
   }
- 
-
+  .events {
+    position: absolute;
+    top: 0;
+    left: 70px;    
+    background: antiquewhite;
+    border: 3px solid #4c2c72;
+    padding: .5rem;
+    box-shadow: 0 0 30px #999;
+}
+.eventimg {
+    display: block;
+}
 }
