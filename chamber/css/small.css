@@ -101,6 +101,13 @@ nav ul.hide {
 .map {
     display: none;
 }
+.smallmap {
+    display: none;
+
+}
+.bigmap {
+    display: none;
+}
 .footer1 {
     padding: 8px;
     background-color: #dcd8d1;
@@ -229,13 +236,19 @@ border: 3px solid #4c2c72;
     display: block;
 }
     
-/* home and city page */
+/* home page */
 .weathersummary {
-    display: block; 
-    background: radial-gradient(#32A287, #A3C4BC);
-    border: 3px solid #4d7ea8;
+    display: block;
+    max-width: 75%; 
+    margin: auto;
+    margin-top: 35px;
+    background-color: rgb(238, 234, 234);
     padding: .5rem;
-    box-shadow: 0 0 30px #A3C4BC;
+}
+.threeday {
+    background-color: rgb(238, 234, 234);
+    max-width: 75%;
+    margin: auto;
 }
 .flex {
     display: flex;
@@ -263,6 +276,13 @@ border: 3px solid #4c2c72;
 	padding: 5px;
 	text-align: center;
 }
+.homepage-info {
+     max-width: 70%;
+     margin: auto;
+     text-align: center;
+     font-size: 2.2em;
+
+ }
 .board {
     background-color: rgb(238, 234, 234) ;
     border-radius: 6px;
@@ -327,3 +347,5 @@ border: 3px solid #4c2c72;
  .flyerimg {
     margin: auto;
  }
+ /*Home Page */
+ 

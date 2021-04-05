@@ -23,7 +23,16 @@
     display: block;
     float:left;
     margin-top: 90px;
-    margin-left: 50px ;
+    margin:auto;
+}
+.smallmap {
+    display:block;
+    float: left;
+    margin-top: 90px;
+    margin: auto;
+}
+.bigmap {
+    display: none;
 }
 .contact {
     align-items: center;
@@ -35,6 +44,27 @@
 }*/
 /* home and city page */
 .weathersummary {
+    display: block;
+    max-width: 75%; 
+    margin: auto;
+    margin-top: 35px;
+    background-color: rgb(238, 234, 234);
+    padding: .5rem;
+}
+  .threeday {
+    background-color: rgb(238, 234, 234);
+    max-width: 75%;
+    margin: auto;
+} 
+.homepage-info {
+    max-width: 70%;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 2.2em;
+}
+/*.weathersummary {
+
     position: absolute;
     top: 0;
     left: 70px;    
@@ -42,7 +72,7 @@
     border: 3px solid #4d7ea8;
     padding: .5rem;
     box-shadow: 0 0 30px #A3C4BC;
-}
+}*/
  ul.boxes {
 
     margin: .5rem auto;
@@ -59,12 +89,13 @@
   .events {
     position: absolute;
     top: 0;
+    margin-bottom: 100px;
     left: 70px;    
     background: antiquewhite;
     border: 3px solid #4c2c72;
     padding: .5rem;
     box-shadow: 0 0 30px #999;
-}
+}*/
   .eventimg {
       display: none;
   }

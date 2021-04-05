@@ -6,7 +6,8 @@
     <link rel="shortcut icon" href="images/favicon (1).ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/chamber/css/small.css">
     <link rel="stylesheet" href="/chamber/css/medium.css">
     <link rel="stylesheet" href="/chamber/css/large.css">
@@ -52,74 +53,77 @@
           businesses, events and weather to better our community and econmic growth.
         </h3>
     </div>
-    <button onclick="https:/ashleycyberhub.github.io/chamber/join.html">Join the Sanger Chamber of Commerce!</button>
+    <button style="padding: 15px; font-family: 'Open Sans', sans-serif; background-color: #ffad05; font-size: 1.5em; margin-bottom: 15px;"><a href="https:/ashleycyberhub.github.io/chamber/join.html">Join the Sanger Chamber of Commerce!</a></button>
     <section class="adone">
-      <h1>
-      Babe's Chicken Dinner House</h1>
-      <h3>204 N. 4th St
-      Sanger, TX 76266
-      (940) 458-0000</h3>
-      <a href="https://babeschick.wpengine.com/"></a>
+    <a href="https://babeschick.wpengine.com/" target="_blank">
+      <img src="images/sanger/babes.jpg" alt="Babe's Chicken Dinner House Logo" /></a>
+      
     </section>
     <section class="adtwo">
-      <h1>Blake's Snow Shack</h1>
-        <h3>400 N. Locust St
-        Sanger, TX 76266
-        (940) 231-3338</h3>
-        <a href ="http://www.blakessnowshack.com"></a>
+      <a href ="http://www.blakessnowshack.com" target="_blank">
+      <img src="images/sanger/snowcone.jpg" alt="Blake's Snow Cone Stand Logo" /></a>
+        
         </section>
         <section class="adthree">
-        <h1>Gypsy Cowgirl</h1>
-        <h3>208 N. 4th St
-          Sanger, TX 76266
-          (940) 458-1942</h3>
-          <a href="https://www.thegypsycowgirl.com"></a>
+        <a href="https://www.thegypsycowgirl.com" target="_blank">
+        <img src="images/sanger/gypsy.jpg" alt="The Gypsy Cowgirl Logo" /></a>
+        
+          </a>
         </section>
     <section class="weathersummary">
-      <h3>Weather Summary</h3>
+      <h2>Current Weather</h2>
       <p>Currently: <span id="current-temp"></span>&deg; F</p>
       <p>High: <span id="high-temp"></span>&deg; F</p>
       <p>Wind Chill: <span id="wind-chill"></span></p>
       <p>Humidity: <span id="humidity"></span>%</p>
       <p>Wind Speed: <span id="wind-speed"></span>mph</p>
       </section>
-      </div>
-      <h2>3 Day Forecast</h2>
-<div class="flex">
+      <section class="threeday">
+      <h2 style="text-align: center;">3 Day Forecast</h2>
+  <div class="flex">
     <div class="flex-col">
   <span id="dayofweek1"></span>
   <img id="imagesrc1">&nbsp;
                 <img src="" alt="" id="icon1" />
-  <span id="forecast1">&deg; F</span>
+  <p><span id="forecast1"></span>&deg; F</p>
 </div>
 <div class="flex-col">
   <span id="dayofweek2"></span>
   <img id="imagesrc2">&nbsp;
                 <img src="" alt="" id="icon2" />
-  <span id="forecast2">&deg; F</span>
+  <p><span id="forecast2"></span>&deg; F</p>
 </div>
 <div class="flex-col">
   <span id="dayofweek3"></span>
   <img id="imagesrc3">&nbsp;
                 <img src="" alt="" id="icon3" />
-  <span id="forecast3">&deg; F</span>
+  <p><span id="forecast3"></span>&deg; F</p>
 </div>
 </div>
-        <div class="cards"></div>
+</section>
+        <div class="events">
+          <p style="font-size: 1em;"></p>
+          </div>
         <div class="contact">
           <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53309.12640695554!2d-97.21362203498666!3d33.37575458345617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864db22a54d3df9f%3A0x18bbce11129a71d6!2sSanger%2C%20TX%2076266!5e0!3m2!1sen!2sus!4v1616806596286!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
-          </div>
+            <div class="bigmap">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106618.27089600991!2d-97.24864301872981!3d33.37573983300957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864db22a54d3df9f%3A0x18bbce11129a71d6!2sSanger%2C%20TX%2076266!5e0!3m2!1sen!2sus!4v1617661849862!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+           </div>
+           <div class="smallmap">
+              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53309.12640695554!2d-97.21362203498666!3d33.37575458345617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864db22a54d3df9f%3A0x18bbce11129a71d6!2sSanger%2C%20TX%2076266!5e0!3m2!1sen!2sus!4v1616806596286!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>--> 
+            </div>
+            </div>
           <div class="contact-center">
+            <a href="https://ashleycyberhub.github.io/chamber/contact.html" style="color: antiquewhite;font-family: 'Bree Serif', serif";>Contact Us!</a>
             <h3>Sanger Chamber of Commerce</h3>
             <h4>P.O. Box 537, 300 Bolivar Street</h4>
             <h4>Sanger, TX 76266</h4>
             <h4>940-458-7702</h4>
             <h4>chamber@sangertexas.com</h4>
             <h4>Monday - Friday: 9:00 AM - 3:00 PM</h4>
-          <a href="https://www.facebook.com/">
+          <a href="https://www.facebook.com/SangerChamberofCommerce/"/>
           <img src="images/hero/iconfinder_Colored_Facebook3_svg_5365678.png" alt="facebook logo" width="60" /></a>
-          <a href="https://www.instagram.com/"><img src="images/hero/iconfinder_25_social_2609558.png" alt="instagram logo" width="60" /></a>
+          <a href="https://www.linkedin.com/company/sanger-chamber-of-commerce/"><img src="images/hero/linkedinicon.png" alt="instagram logo" width="60" style="border-radius: 6px;"/></a>
          
          </div>
          </div>
@@ -139,6 +143,7 @@
         <script src="js/ham.js"></script>  
         <script src="js/homepage.js"></script>
         <script src="js/forecast.js"></script>
+        <script src="js/event.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         
         
