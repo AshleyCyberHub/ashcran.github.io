@@ -210,7 +210,7 @@ textarea {
     align-content: center;
     text-align: center;
 }
-.boxes {
+ul.boxes {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
@@ -219,7 +219,12 @@ textarea {
     margin: .5rem;
     background-color: rgb(238, 234, 234) ;
     border: 3px solid #4c2c72;
-}
+}margin: .5rem auto;
+border:1px solid #bbb;
+background-color: #eee;
+display: grid;
+grid-template-columns: 1fr 1fr;
+border: 3px solid #4c2c72;
 .box1 {
     display: block;
 }
