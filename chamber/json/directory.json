@@ -1,5 +1,5 @@
 {
-    "Directory": [
+    "directory": [
       {
         "name": "A & E Dog Boarding & Grooming",
         "address": "304 Acker Street, Suite 105, Sanger, TX 76266",
@@ -31,7 +31,7 @@
       {
         "name": "Miguelito's Mexican Restaurant",
         "address": "1412 N Stemmons St, Sanger, TX 76266",
-        "phonenumber": " (940) 458-0073",
+        "phonenumber": "(940) 458-0073",
         "website": "http://www.miguelitosmexicancuisine.com/",
         "imageurl": "https://ashleycyberhub.github.io/chamber/images/sanger/migs.png"
       },
