@@ -40,12 +40,13 @@ nav ul li a {
       grid-template-columns: 1fr 1fr 1fr;
       font-size: 1.7em;
   }
-  .box1 {
-      position: absolute;
+  .boxone {
+      display: block;
       align-items: center;
-    
       text-align: center;
-      
+      border-right: 6px solid #4c2c72;
+      border-left:  6px solid #4c2c72;
+    }
   }
   .events {
     position: absolute;

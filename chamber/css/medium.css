@@ -68,8 +68,15 @@
     background-color: #eee;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
-  }
+ }
+ .boxone {
+    display: block;
+    align-items: center;
+    text-align: center;
+    border-right: 6px solid #4c2c72;
+    border-left:  6px solid #4c2c72;
+    
+}
   .events {
     position: absolute;
     top: 0;

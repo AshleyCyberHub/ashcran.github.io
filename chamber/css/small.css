@@ -217,8 +217,9 @@ textarea {
     align-content: center;
     text-align: center;
 }
-nav.boardnames {
-    border: none;
+.boxone {
+    border-right: 6px solid #4c2c72;
+    border-left:  6px solid #4c2c72;
 }
 ul.boxes {
     display: grid;
@@ -227,6 +228,8 @@ ul.boxes {
     align-content: center;
     text-align: center;
     margin: .5rem;
+    border-left: 6px solid #4c2c72;
+    border-right: 6px solid #4c2c72;
     background-color: rgb(238, 234, 234) ;
 }
     
