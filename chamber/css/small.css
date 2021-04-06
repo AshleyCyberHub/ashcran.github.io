@@ -397,8 +397,28 @@ img.cards {
     grid-gap: 10px;
     text-align: center;
     margin: 15px auto;
-  }
-  .cards img {
-      max-width: 100px;
-  }
- 
+}
+.cards img {
+    max-width: 100px;
+}
+.gridview {
+    margin:30px auto;
+    background-color: #4c2c72;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+#column1 {
+    width: 30%;
+
+
+}
+.resource {
+    margin-left: 50px;
+    text-align: left;
+} 
