@@ -48,7 +48,8 @@ nav ul.hide {
     display: none;
 }
 .active {
-    border-bottom: 3px solid #FFAD05;
+    border-bottom: 5px solid #FFAD05;
+    border-top: 5px solid #FFAD05;
      margin: 0 auto;
      max-width: 760px;
  }
