@@ -22,6 +22,13 @@
         "imageurl": "https://ashleycyberhub.github.io/chamber/images/sanger/snowcone.jpg"
       },
       {
+        "name": "City of Sanger",
+        "address": "502 Elm Street, Sanger, TX 76266",
+        "phonenumber": "(940) 458-7930",
+        "link": "https://www.sangertexas.org/",
+        "imageurl": "https://ashleycyberhub.github.io/chamber/images/sanger/cityofsangerlogo.png"
+      },
+      {
         "name": "The Gypsy Cowgirl",
         "address": "208 N. 4th St, Sanger, TX 76266",
         "phonenumber": "(940) 458-1942",
@@ -48,6 +55,13 @@
         "phonenumber": "(940) 458-4600",
         "link": "https://www.sangerbank.com/",
         "imageurl": "https://ashleycyberhub.github.io/chamber/images/sanger/bankimg.png"
+      },
+      {
+        "name": "Wash N Go Laundry",
+        "address": "619 N. 106h St, Sanger, TX 76266",
+        "phonenumber": "(940) 302-0120",
+        "link": "https://www.washngosanger.com/",
+        "imageurl": "https://ashleycyberhub.github.io/chamber/images/sanger/laundrylogo.png"
       }
        
     ]
