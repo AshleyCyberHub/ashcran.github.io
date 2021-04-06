@@ -1,6 +1,6 @@
-const requestURL = 'https://ashleycyberhub.github.io/chamber/json/directory.json'; 
+const requestdirectoryURL = 'https://ashleycyberhub.github.io/chamber/json/directory.json'; 
 
-fetch(requestURL)
+fetch(requestdirectoryURL)
 .then(function (response) {
    return response.json();
 })
