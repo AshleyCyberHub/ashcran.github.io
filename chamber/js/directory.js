@@ -1,43 +1,32 @@
 const requestURL = 'https://ashleycyberhub.github.io/chamber/json/directory.json'; 
+
 fetch(requestURL)
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (jsonObject) {
-        // console.table(jsonObject);  // temporary checking for valid response and data parsing
-        const directory = jsonObject['directory'];
-        directory.forEach(list => {
-            if (list.name == "Babe's" || list.name == "Sanger BAnk" || list.name == "Fish Haven"){
-                let card = document.createElement('article')
-                let div = document.createElement('div')
-                let h2 = document.createElement('h2');
-                let h3 = document.createElement('h3');
-                let p1 = document.createElement('p');
-                let p2 = document.createElement('p');
-                let p3 = document.createElement('p');
-                let image = document.createElement('img');
-
-                div.setAttribute('class', 'lInfo')
-                h2.textContent = list.name;
-                h2.setAttribute('class', lName');
-                h3.textContent = list.address;
-                h3.setAttribute('class', 'laddress');
-                p1.textContent = "Year Founded: " + list.yearFounded;
-                p2.textContent = "Population: " + list.currentPopulation;
-                p3.textContent = "Average Rain Fall: " + list.averageRainfall;
-                image.setAttribute('src', `images/homepage/${list.photo}`);
-                image.setAttribute('alt', list.name);
-
-                div.appendChild(h2);
-                div.appendChild(h3);
-                div.appendChild(p1);
-                div.appendChild(p2);
-                div.appendChild(p3);
-                card.appendChild(div);
-                card.appendChild(image);
-
-                document.querySelector('div.cards').appendChild(card);
-            }
-        });
-
-    });
+.then(function (response) {
+   return response.json();
+})
+.then(function (jsonObject) {
+   //console.table(jsonObject);  // temporary checking for valid response and data parsing
+   const directory = jsonObject['directory'];
+   for (let i = 0; i < directory.length; i++) {
+      let card = document.createElement('section');
+      let h2 = document.createElement('h2');
+      let image = document.createElement('img');
+      let div1 = document.createElement('div');
+      let div2 = document.createElement('div');
+      let div3 = document.createElement('div');
+      h2.textContent = directory[i].name + ' ';
+      div1.setAttribute('class', 'address')
+      div1.textContent = 'Address: ' + directory[i].address;
+      div2.setAttribute('class', 'phonenumber')
+      div2.textContent = 'Phone Number: ' + directory[i].phonenumber;
+      div3.setAttribute('class', 'website')
+      div3.textContent = 'Website: ' + directory[i].website;
+      image.setAttribute('src', directory[i].imageurl);
+      card.appendChild(h2);
+      card.appendChild(div1);
+      card.appendChild(div2);
+      card.appendChild(div3);
+      card.appendChild(image);
+      document.querySelector('div.cards').appendChild(card);
+   }
+});
