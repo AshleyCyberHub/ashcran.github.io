@@ -51,7 +51,7 @@
     background-color: rgb(238, 234, 234);
     padding: .5rem;
 }
-  .threeday {
+.threeday {
     background-color: rgb(238, 234, 234);
     max-width: 75%;
     margin: auto;
@@ -63,29 +63,13 @@
     text-align: center;
     font-size: 2.2em;
 }
-/*.weathersummary {
-
-    position: absolute;
-    top: 0;
-    left: 70px;    
-    background: radial-gradient(#32A287, #A3C4BC);
-    border: 3px solid #4d7ea8;
-    padding: .5rem;
-    box-shadow: 0 0 30px #A3C4BC;
-}*/
  ul.boxes {
-
     margin: .5rem auto;
-    border:1px solid #bbb;
     background-color: #eee;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: 3px solid #4c2c72;
+
   }
-  /*boxes {
-    display: flex;
-    flex-direction: row;
-  }*/
   .events {
     position: absolute;
     top: 0;
@@ -95,7 +79,7 @@
     border: 3px solid #4c2c72;
     padding: .5rem;
     box-shadow: 0 0 30px #999;
-}*/
+}
   .eventimg {
       display: none;
   }
@@ -116,4 +100,12 @@
 .flyerimg {
     float: left;
 }
+section .cards {
+    margin: .5rem auto;
+    border:1px solid #bbb;
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
 }
