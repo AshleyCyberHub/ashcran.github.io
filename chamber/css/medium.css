@@ -107,12 +107,22 @@
 .flyerimg {
     float: left;
 }
-section .cards {
+/*section .cards {
     margin: .5rem auto;
     border:1px solid #bbb;
     background-color: #eee;
     display: flex;
     flex-wrap: wrap;
+  }*/
+  div.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    margin: 15px auto;
+  }
+  .cards img {
+      max-width: 100px;
   }
 
 }

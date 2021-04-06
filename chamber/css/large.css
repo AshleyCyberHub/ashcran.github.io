@@ -126,8 +126,11 @@ nav ul li a {
 div.cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 10px;
     text-align: center;
-    margin: 20px auto;
+    margin: 15px auto;
+  }
+  .cards img {
+      max-width: 100px;
   }
 }
