@@ -15,7 +15,7 @@ body {
     margin-left: 40px;
 }
 .page {
-    margin-top: 40px;
+    margin-top: 50px;
     margin: auto;
     text-align: center;
     font-size: 3em;
@@ -27,14 +27,14 @@ body {
     text-align: center;
     font-style: italic;
     font-size: 2em;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: #DCEDFF;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    color: #DCEDFF;/*
+    border-top: 1px solid rgba(0, 0, 0, 0.3);*/
     text-align: center;
 }
 nav {
