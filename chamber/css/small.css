@@ -348,75 +348,16 @@ ul.boxes {
     margin: auto;
  }
  /*Directory Page */
- .cards{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    align-content: center;
-    text-align: center;
-    margin: .5rem;
-    background-color: rgb(238, 234, 234) ;
-    
-}
-.cards article{
-    padding: 10px;
-    border: 3px solid #19647E ;
-    background-color:#DCEDFF ;
-}/*
-img.cards {
-    max-height: 340px;
-    margin: 10px auto 15px auto;
-    display: block;
-    /*margin-bottom: 15px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px lightslategray;
- }*//*
- main.cards {
-    max-width: 95%;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px lightslategray;
-    padding: 10px;
-    margin: 0 auto;
-    font-family: 'Open Sans', sans serif;
-    background-color: lightgray;
- }
-  section.cards {
-    background-color: lightgray;
-    border: solid 2px lightslategray;
-    padding-bottom: 10px;
-    border-radius: 10px;
- }
-  .cards {
-    display: grid;
-    grid-template-columns: 1fr; 
-    gap: 5px;  
- }*/
- div.cards{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    text-align: center;
-    margin: 15px auto;
-}
+ 
 .cards img {
     max-width: 100px;
 }
 .gridview {
     margin:30px auto;
     background-color: #4c2c72;
-    color: antiquewhite;
     text-align: center;
     font-size: 25px;
     padding-bottom: 10px;
-}
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-#column1 {
-    width: 30%;
-
-
 }
 .resource {
     margin-left: 50px;
