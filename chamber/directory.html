@@ -42,28 +42,24 @@
         <main>
           <div class="hero">
               <picture class="heroimg">
-                <source srcset="./images/sanger/downtownsanger300px.jpg" source media="(max-width:500px)" />
-                <source srcset="./images/sanger/downtownsanger500px.jpg"source media="(max-width:800px)" />
-                <source srcset="./images/sanger/downtownsanger800px.jpg" source media="(max-width:1050px)"/>
-                <source srcset="./images/sanger/downtown1200px.jpg" source media="(max-width:1300px)"/>
+                <source srcset="./images/sanger/downtownsanger300px.jpg" media="(max-width:500px)" />
+                <source srcset="./images/sanger/downtownsanger500px.jpg" media="(max-width:800px)" />
+                <source srcset="./images/sanger/downtownsanger800px.jpg" media="(max-width:1050px)"/>
+                <source srcset="./images/sanger/downtown1200px.jpg" media="(max-width:1300px)"/>
                 <img src="images/sanger/downtownsanger.jpg" alt="downtown shops in Sanger" />
               </picture>
               </div>
-              <h1 style="text-align: center;">Directory</h1>
-              <div class="gridview">
-              
+              <h1 style="text-align: center;">Directory</h1>    
+           <div class="gridview">
+            <button onclick="listView()"><i class="fas fa-list"></i></button>
             
-<div class="row">
-  <div id="column1">
-    
-  </div>
-</div><div class="gridview">
-<button onclick="listView()"><i class="fas fa-list"></i></button>
-<button onclick="gridView()"><i class="fas fa-th-large"></i></button>
- <div class="cards"></div>
-
-           </div>   
-               
+            <button onclick="gridView()"><i class="fas fa-th-large"></i></button>
+            
+            </div>
+             <div class="cards" style="background-color:#aaa;">
+                </div>
+          
+                
     <div class="contact">
       <div class="map">
         <div class="bigmap">
@@ -74,7 +70,7 @@
         </div>
         </div>
       <div class="contact-center">
-        <a href="https://ashleycyberhub.github.io/chamber/contact.html" style="color: antiquewhite;font-family: 'Bree Serif', serif";>Contact Us!</a>
+        <a href="https://ashleycyberhub.github.io/chamber/contact.html" style="color: antiquewhite;font-family: 'Bree Serif', serif"; >Contact Us!</a>
         <h3>Sanger Chamber of Commerce</h3>
         <h4>P.O. Box 537, 300 Bolivar Street</h4>
         <h4>Sanger, TX 76266</h4>
@@ -84,10 +80,8 @@
       <a href="https://www.facebook.com/SangerChamberofCommerce/"/>
       <img src="images/hero/iconfinder_Colored_Facebook3_svg_5365678.png" alt="facebook logo" width="60" /></a>
       <a href="https://www.linkedin.com/company/sanger-chamber-of-commerce/"><img src="images/hero/linkedinicon.png" alt="instagram logo" width="60" style="border-radius: 6px;"/></a>
-     
      </div>
      </div>
-
   </main> 
 
   <footer>
@@ -101,9 +95,7 @@
     <script src="js/date.js"></script> 
     <script src="js/ham.js"></script>  
     <script src="js/directory.js"></script>
+    <script src="js/gridlistview.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    
-    
-   
 </body>
 </html>
